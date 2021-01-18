@@ -1,0 +1,186 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+#app {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+/* For text gradient */
+.gradient-heading {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    background: -o-linear-gradient(45deg, #ff8a00, #e52e71, #044bea, #7a00ff);
+    background: linear-gradient(45deg, #ff8a00, #e52e71, #044bea, #7a00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    -webkit-animation: gradient-text 8s ease infinite;
+    animation: gradient-text 8s ease infinite;
+
+}
+
+@-webkit-keyframes gradient-text {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient-text {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.typewriter h2 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(25) 1s 1 normal both;
+}
+
+.typewriter #line-1 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 425px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(40) 1s 1 normal both;
+    animation-delay: 3.5s;
+}
+
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+        border-right: none;
+    }
+
+    0.1% {
+        border-right: 1px solid rgb(149, 149, 149);
+    }
+
+    99.9% {
+        border-right: 1px solid rgb(149, 149, 149);
+    }
+
+    100% {
+        border: none;
+    }
+}
+
+i {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    padding-top: 1rem;
+    padding-left: 20px;
+
+}
+
+a {
+    color: rgb(220, 220, 220);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* Sliding text */
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 100vw;
+}
+
+.left,
+.right {
+    width: 50vw;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.left {
+    color: rgb(230, 101, 16);
+    transform: skew(0deg, -15deg);
+}
+
+.right {
+    color: rgb(255, 229, 34);
+    transform: skew(0deg, 15deg);
+}
+
+.left .content {
+    width: 100vw;
+    text-align: center;
+}
+
+.right .content {
+    width: 100vw;
+    text-align: center;
+    transform: translate(-50vw);
+}
+
+span {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    text-transform: uppercase;
+    line-height: .8;
+    transition: ease-out .6s;
+}
+
+#sliding-text {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
