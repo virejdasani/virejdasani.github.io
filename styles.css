@@ -1,186 +1,120 @@
 * {
-    background-color: black;
-    margin: 0;
-    padding: 0;
+  background-color: black;
+  margin: 0;
+  padding: 0;
 
 }
 
 #app {
-    background-color: black;
-    height: 100%;
-    width: 100%;
+  background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
-/* For text gradient */
-.gradient-heading {
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 50px;
-    text-align: center;
-    background: -o-linear-gradient(45deg, #ff8a00, #e52e71, #044bea, #7a00ff);
-    background: linear-gradient(45deg, #ff8a00, #e52e71, #044bea, #7a00ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 300% 300%;
-    -webkit-animation: gradient-text 8s ease infinite;
-    animation: gradient-text 8s ease infinite;
+/* Name animation */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+
+svg {
+  display: block;
+  font: 10.5em 'Montserrat';
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
 }
 
-@-webkit-keyframes gradient-text {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
 }
 
-@keyframes gradient-text {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.text-copy:nth-child(1) {
+  stroke: #4D163D;
+  animation-delay: -1;
 }
 
-
-
-
-.typewriter h2 {
-    border-right: 1px solid white;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 600px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typewriter 2s steps(25) 1s 1 normal both;
+.text-copy:nth-child(2) {
+  stroke: #840037;
+  animation-delay: -2s;
 }
 
-.typewriter #line-1 {
-    border-right: 1px solid white;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 425px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typewriter 3s steps(40) 1s 1 normal both;
-    animation-delay: 3.5s;
+.text-copy:nth-child(3) {
+  stroke: #BD0034;
+  animation-delay: -3s;
 }
 
-
-@keyframes typewriter {
-    0% {
-        width: 0;
-        border-right: none;
-    }
-
-    0.1% {
-        border-right: 1px solid rgb(149, 149, 149);
-    }
-
-    99.9% {
-        border-right: 1px solid rgb(149, 149, 149);
-    }
-
-    100% {
-        border: none;
-    }
+.text-copy:nth-child(4) {
+  stroke: #BD0034;
+  animation-delay: -4s;
 }
 
-i {
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out;
-    animation-delay: 10s;
-    animation-fill-mode: forwards;
-    padding-top: 1rem;
-    padding-left: 20px;
-
+.text-copy:nth-child(5) {
+  stroke: #FDB731;
+  animation-delay: -5s;
 }
 
-a {
-    color: rgb(220, 220, 220);
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
 }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-
 
 /* Sliding text */
-/* * {
-    margin: 0;
-    padding: 0;
-  } */
+
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .line {
-    width: 100vw;
+  width: 100vw;
 }
 
 .left,
 .right {
-    width: 50vw;
-    overflow: hidden;
-    display: inline-block;
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
 }
 
 .left {
-    color: rgb(230, 101, 16);
-    transform: skew(0deg, -15deg);
+  color: rgb(230, 101, 16);
+  transform: skew(0deg, -15deg);
 }
 
 .right {
-    color: rgb(255, 229, 34);
-    transform: skew(0deg, 15deg);
+  color: rgb(255, 229, 34);
+  transform: skew(0deg, 15deg);
 }
 
 .left .content {
-    width: 100vw;
-    text-align: center;
+  width: 100vw;
+  text-align: center;
 }
 
 .right .content {
-    width: 100vw;
-    text-align: center;
-    transform: translate(-50vw);
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
 }
 
 span {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8vw;
-    text-transform: uppercase;
-    line-height: .8;
-    transition: ease-out .6s;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6vw;
+  text-transform: uppercase;
+  line-height: .8;
+  transition: ease-out .6s;
 }
 
 #sliding-text {
-    position: absolute;
-    top: 40%;
-    left: 0%;
+  position: absolute;
+  top: 55%;
+  left: 0%;
 }
-
