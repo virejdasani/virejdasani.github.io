@@ -11,7 +11,8 @@
   width: 100%;
 }
 
-/* Name animation */
+/* Name animation
+Inspired by @ClaireLarsen (codepen) */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 
@@ -62,9 +63,9 @@ svg {
     stroke-dashoffset: -35%;
   }
 }
-
-/* Sliding text */
-
+ 
+/* Animated sliding text 
+Inspired by @chenxinnn (codepen) */
 body {
   height: 100vh;
   display: flex;
