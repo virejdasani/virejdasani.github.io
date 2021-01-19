@@ -11,10 +11,29 @@
   width: 100%;
 }
 
+#navbar {
+  background: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.8s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 0.5em 1em;
+  font-size: 14px;
+}
+
+
 /* Name animation
 Inspired by @ClaireLarsen (codepen) */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
 
 svg {
   display: block;
@@ -116,6 +135,6 @@ span {
 
 #sliding-text {
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 0%;
 }
