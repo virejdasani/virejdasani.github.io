@@ -2,18 +2,12 @@
   background-color: black;
   margin: 0;
   padding: 0;
-
 }
 
 #app {
   background-color: black;
   height: 100%;
   width: 100%;
-}
-
-.plugs {
-  padding-top: 15px;
-  padding-left: 15px;
 }
 
 /* Navbar */
@@ -26,6 +20,11 @@
   transition: top 0.8s;
 }
 
+.plugs {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 #navbar a {
   float: left;
   display: block;
@@ -33,17 +32,16 @@
   padding-right: 12px;
 }
 
-
 /* Name animation
 Inspired by @ClaireLarsen (codepen) */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 svg {
   display: block;
-  font: 10.5em 'Montserrat';
+  font: 11.5em 'Montserrat';
   width: 100%;
   height: 300px;
-  margin: 0 auto;
+  margin-top: 7%;
 }
 
 .text-copy {
@@ -85,59 +83,49 @@ svg {
     stroke-dashoffset: -35%;
   }
 }
- 
-/* Animated sliding text 
-Inspired by @chenxinnn (codepen) */
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.line {
-  width: 100vw;
-}
-
-.left,
-.right {
-  width: 50vw;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.left {
-  color: rgb(230, 101, 16);
-  transform: skew(0deg, -15deg);
-}
-
-.right {
-  color: rgb(255, 229, 34);
-  transform: skew(0deg, 15deg);
-}
-
-.left .content {
-  width: 100vw;
+/* Gradient text 
+inspired by @Md-Tofajjal-Hossen (Codepen) */
+.gradient-heading {
+  font-size: 50px;
+  font-weight: 200;
   text-align: center;
+  width: 100%;
+  height: 250px;
+  margin-top: 4%;
+  background: -o-linear-gradient(45deg, #ff8a00, #e52e71, #044bea, #7a00ff);
+  background: linear-gradient(45deg, #ff8a00, #e52e71, #044bea, #7a00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  -webkit-animation: gradient-text 8s ease infinite;
+  animation: gradient-text 8s ease infinite;
 }
 
-.right .content {
-  width: 100vw;
-  text-align: center;
-  transform: translate(-50vw);
+@-webkit-keyframes gradient-text {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-span {
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 6vw;
-  text-transform: uppercase;
-  line-height: .8;
-  transition: ease-out .6s;
-}
+@keyframes gradient-text {
+  0% {
+    background-position: 0% 50%;
+  }
 
-#sliding-text {
-  position: absolute;
-  top: 58%;
-  left: 0%;
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
