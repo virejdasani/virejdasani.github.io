@@ -130,112 +130,23 @@ inspired by @Md-Tofajjal-Hossen (Codepen) */
   }
 }
 
+/* Cards / Buttons */
 
-/* Cards
-inspired by @Beni7 (Codepen) */
-.container {
-  margin-top: 10%;
-  margin-left: 50%;
-  background-color: #0e0e0e;
-  transform: translate(-50%, -50%);
-  height: 430px;
-  width: 350px;
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardButtons {
+  background-color: #1f1f1f; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  border-radius: 5px;
-  color: white;
-}
-
-.front-face,
-.back-face {
-  position: absolute;
-  color: white;
-  width: 100%;
-  height: 100%;
-  background: #ebf8f9;
-  background-color: rgb(39, 39, 39);
-  border-radius: 5px;
-  backface-visibility: hidden;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  transition: 0.4s linear;
-}
-
-.cover {
-  background: linear-gradient(75deg, #8e44ad, #2980b9);
-  height: 115px;
-  width: 100%;
-  border-radius: 5px 5px 0 0;
-  color: white;
-
-
-}
-
-.profile {
-  height: 115px;
-  width: 115px;
-  border-radius: 50%;
-  padding: 5px;
-  background: black;
-  color: white;
-  margin-top: 40px;
-}
-
-.name {
-  background-color: rgb(39, 39, 39);
-  font-size: 30px;
-  padding-top: 75px;
-  color: white;
-
-}
-
-.tag {
-  background-color: rgb(39, 39, 39);
-  padding: 5px 0;
-  color: white;
-
-}
-
-.about {
-  background-color: rgb(39, 39, 39);
-  margin-top: 10px;
-  padding-top: 0 35px;
-  font-size: 15px;
-  color: white;
-
-}
-
-h1 {
-  color: white;
-}
-
-p {
-  padding: 20px;
-  color: white;
-  text-align: justify;
-  color: white;
-  background-color: rgb(39, 39, 39);
-
-
-}
-
-i {
-  font-size: 30px;
-  padding-left: 20px;
-  cursor: pointer;
-
-}
-
-.back-face {
-  transform: perspective(800px) rotateY(-180deg);
-}
-
-.front-face {
-  transform: perspective(800px) rotateY(0deg);
-}
-
-.container:hover>.back-face {
-  transform: perspective(800px) rotateY(0deg);
-}
-
-.container:hover>.front-face {
-  transform: perspective(800px) rotateY(180deg);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  margin-bottom: 100px;
 }
