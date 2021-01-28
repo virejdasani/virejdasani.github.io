@@ -65,7 +65,7 @@ body {
 @media(max-width: 899px) {
     #appCards {
         /* INCREASE IF CARDS GO OUT OF SCREEN */
-        margin-top: 1450px;
+        margin-top: 1400px;
         text-align: center;
         color: white;
         width: 80%;
