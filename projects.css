@@ -58,6 +58,13 @@ body {
         color: white;
         width: 80%;
     }
+
+    #projectCards {
+        color: white;
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
+    }
 }
 
 @media(max-width: 899px) {
@@ -67,14 +74,17 @@ body {
         color: white;
         width: 80%;
     }
+
+    #projectCards {
+        color: white;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 
-#projectCards {
-    color: white;
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-}
+
 
 /* Navbar */
 #navbar {
