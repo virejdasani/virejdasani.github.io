@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-/* html {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-} */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -23,7 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* padding: 32px; */
 }
 
 @keyframes gradient {
