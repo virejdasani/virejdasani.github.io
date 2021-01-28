@@ -18,6 +18,8 @@
   width: 100%;
   display: block;
   transition: top 0.8s;
+  /* To make sure it is on top of any other content */
+  z-index:100;
 }
 
 .plugs {
@@ -142,11 +144,21 @@ inspired by @Md-Tofajjal-Hossen (Codepen) */
   background-color: #1f1f1f; 
   border: none;
   color: white;
-  padding: 8px 35px;
+  padding: 10px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 5px;
   margin-bottom: 100px;
+  border-radius: 6px;
+}
+
+#projectCards {
+  color: white;
+  margin: 100px;
+}
+
+#appsOnPlayStore {
+  margin-top: 10%;
 }
