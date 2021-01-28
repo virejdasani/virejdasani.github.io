@@ -48,6 +48,7 @@ body {
 
 @media(min-width: 900px) {
     #appCards {
+        margin-top: 250px;
         text-align: center;
         color: white;
         width: 80%;
@@ -63,7 +64,7 @@ body {
 
 @media(max-width: 899px) {
     #appCards {
-        margin-top: 650px;
+        margin-top: 1050px;
         text-align: center;
         color: white;
         width: 80%;
