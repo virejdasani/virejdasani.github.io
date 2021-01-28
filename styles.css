@@ -10,6 +10,12 @@
   width: 100%;
 }
 
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
 /* Navbar */
 #navbar {
   background: #0e0e0e;
@@ -154,24 +160,3 @@ inspired by @Md-Tofajjal-Hossen (Codepen) */
   border-radius: 6px;
 }
 
-#appCards {
-  color: white;
-  width: 80%;
-  margin-left: 18%;
-}
-
-#projectCards {
-  color: white;
-  display: inline-block;
-  margin: 10px;
-  text-align: center;
-}
-
-/* Get the inside of the body the same color */
-.card-body, .card-title, .card-text, .card-link {
-  background-color: #343A40;
-}
-
-.card-text {
-  text-align: left;
-}

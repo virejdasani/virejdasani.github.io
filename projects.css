@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(255, 166, 0, 1) 14.7%, rgba(255, 99, 97, 1) 73%);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Get the inside of the body the same color */
+.card-body,
+.card-title,
+.card-text,
+.card-link {
+    background-color: #343A40;
+}
+
+.card-text {
+    text-align: left;
+}
+
+@media(min-width: 900px) {
+    #appCards {
+        text-align: center;
+        color: white;
+        width: 80%;
+    }
+}
+
+@media(max-width: 899px) {
+    #appCards {
+        margin-top: 350px;
+        text-align: center;
+        color: white;
+        width: 80%;
+    }
+}
+
+#projectCards {
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Navbar */
+#navbar {
+    background: #0e0e0e;
+    position: fixed;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.8s;
+    /* To make sure it is on top of any other content */
+    z-index: 100;
+}
+
+.plugs {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    padding-left: 12px;
+    padding-right: 12px;
+}
