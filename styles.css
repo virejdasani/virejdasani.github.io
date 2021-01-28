@@ -1,11 +1,11 @@
 * {
-  background-color: #0e0e0e;
+  background-color: #101010;
   margin: 0;
   padding: 0;
 }
 
 #app {
-  background-color: #0e0e0e;
+  background-color: #101010;
   height: 100%;
   width: 100%;
 }
@@ -24,8 +24,9 @@ body {
   width: 100%;
   display: block;
   transition: top 0.8s;
+  padding-bottom: 10px;
   /* To make sure it is on top of any other content */
-  z-index:100;
+  z-index: 100;
 }
 
 .plugs {
@@ -86,6 +87,33 @@ svg {
   stroke: #FDB731;
   animation-delay: -5s;
 }
+
+
+/* For a more colorful name */
+/* .text-copy:nth-child(1) {
+  stroke: #23d5ab;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #23a6d5;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #e73c7e;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #ee7752;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #FDB731;
+  animation-delay: -5s;
+} */
 
 @keyframes stroke-offset {
   100% {
@@ -148,7 +176,7 @@ inspired by @Md-Tofajjal-Hossen (Codepen) */
 }
 
 .cardButtons {
-  background-color: #1f1f1f; 
+  background-color: #1f1f1f;
   border: none;
   color: white;
   padding: 10px 40px;
@@ -160,4 +188,3 @@ inspired by @Md-Tofajjal-Hossen (Codepen) */
   margin-bottom: 100px;
   border-radius: 6px;
 }
-
