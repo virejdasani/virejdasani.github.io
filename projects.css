@@ -61,13 +61,17 @@ body {
         margin: 20px;
         text-align: center;
     }
+
+    #about {
+        margin-top: 650px;
+    }
 }
 
 /* < 899 */
 @media(max-width: 899px) {
     #appCards {
         /* INCREASE IF CARDS GO OUT OF SCREEN */
-        margin-top: 2300px;
+        margin-top: 2350px;
         text-align: center;
         color: white;
         width: 80%;
@@ -81,6 +85,11 @@ body {
         margin-left: 0px;
         margin-right: 0px;
         text-align: center;
+    }
+
+    #about {
+        /* INCREASE IF CARDS GO OUT OF SCREEN */
+        margin-top: 400px;
     }
 }
 
