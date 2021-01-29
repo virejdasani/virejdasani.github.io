@@ -12,7 +12,7 @@ body {
     height: 100vh;
     /* Gradient BG inspired by @P1N2O (Codepen) */
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
+	background-size: 500% 500%;
 	animation: gradient 15s ease infinite;
     display: flex;
     justify-content: center;
@@ -46,9 +46,10 @@ body {
     text-align: left;
 }
 
+/* > 900 */
 @media(min-width: 900px) {
     #appCards {
-        margin-top: 250px;
+        margin-top: 650px;
         text-align: center;
         color: white;
         width: 80%;
@@ -62,10 +63,11 @@ body {
     }
 }
 
+/* < 899 */
 @media(max-width: 899px) {
     #appCards {
         /* INCREASE IF CARDS GO OUT OF SCREEN */
-        margin-top: 1400px;
+        margin-top: 2400px;
         text-align: center;
         color: white;
         width: 80%;
