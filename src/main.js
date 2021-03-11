@@ -1,7 +1,6 @@
+// TODO - add count API to count page visits, link clicks etc.
 
-
-
-
+// Developer text animation
 consoleText([' Web Developer', ' App Developer', ' Game Developer'], 'text', ['#FF0034']);
 
 function consoleText(words, id, colors) {
