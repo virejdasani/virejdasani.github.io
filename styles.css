@@ -78,17 +78,15 @@ body {
   font-family: Ubuntu Mono, monospace;
   font-weight: 500;
   font-size: 22px;
-  text-align: left;
+  text-align: center;
   height: 200px;
-  /* width: 800px; */
   display: block;
   position: absolute;
   color: white;
   margin-top: 60px;
-  /* padding: 0 30px; */
   text-transform: uppercase;
   letter-spacing: -0.5px;
-  margin-left: 14px;
+  width: 100%;
 }
 
 h2 {
@@ -141,3 +139,23 @@ h2 {
   margin-bottom: 110px;
   border-radius: 6px;
 }
+
+#linkTree {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.linkButtons {
+  padding: 20px;
+  background-color: transparent;
+  color: black;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+

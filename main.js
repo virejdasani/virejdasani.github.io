@@ -1,4 +1,4 @@
-// function([string1, string2],target id,[color1,color2])    
+
 consoleText([' Web Developer', ' App Developer', ' Game Developer'], 'text', ['#FF0034']);
 
 function consoleText(words, id, colors) {
