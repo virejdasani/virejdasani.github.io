@@ -40,7 +40,7 @@ inspired by: @lucavercellio - CodePen */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   margin: 0;
   width: 100%;
   height: 100vh;
@@ -95,6 +95,7 @@ h2 {
   margin: 0;
   letter-spacing: 1px;
   font-size: 40px;
+  font-family: Ubuntu Mono, monospace;
 }
 
 .console-underscore {
@@ -107,6 +108,7 @@ h2 {
 #text {
   font-size: 20px;
   font-weight: 510;
+  font-family: Ubuntu Mono, monospace;
   color: #000;
   background-image: linear-gradient(-90deg, rgb(81, 255, 0), rgb(81, 255, 0));
   -webkit-background-clip: text;
