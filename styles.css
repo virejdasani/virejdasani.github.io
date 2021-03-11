@@ -128,8 +128,8 @@ h2 {
   padding: 20px;
   color: black;
   background-color: transparent;
-  /* border-radius: 5px; */
-  border: solid 1px #3d3d3d;
+  border-radius: 4px;
+  border: solid 2px #3d3d3d;
   width: 80%;
   max-width: 600px;
   display: inline;
@@ -144,5 +144,5 @@ h2 {
 .linkButtons:hover {
   background: rgba(71, 71, 71, 0.2);
   color: white;
-  border: solid 1px black;
+  border: solid 2px black;
 }
