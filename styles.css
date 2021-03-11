@@ -119,27 +119,6 @@ h2 {
 }
 
 
-/* Cards / Buttons */
-.cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cardButtons {
-  background-color: #1f1f1f;
-  border: none;
-  color: white;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 5px;
-  margin-bottom: 110px;
-  border-radius: 6px;
-}
-
 #linkTree {
   padding-top: 200px;
   text-align: center;
