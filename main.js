@@ -24,7 +24,8 @@ function consoleText(words, id, colors) {
                 target.setAttribute('style', 'color:' + colors[0])
                 letterCount += x;
                 waiting = false;
-            }, 1200)
+            }, 500) // Time for text to reappear => higher = more time
+            
         } else if (letterCount === words[0].length + 1 && waiting === false) {
             waiting = true;
             window.setTimeout(function () {
@@ -36,7 +37,7 @@ function consoleText(words, id, colors) {
             target.innerHTML = words[0].substring(0, letterCount)
             letterCount += x;
         }
-    },35)
+    },45) // Text appearing speed => higher = slower
     window.setInterval(function () {
         if (visible === true) {
             con.className = 'console-underscore hidden'
@@ -47,5 +48,5 @@ function consoleText(words, id, colors) {
 
             visible = true;
         }
-    }, 300)
+    }, 300) // Cursor blinking speed => higher = slower
 }
