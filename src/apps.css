@@ -68,6 +68,10 @@ h2 {
     border-bottom: solid 1px rgb(139, 139, 139);
 }
 
+.appName {
+    font-size: 26px;
+}
+
 .card a.button-link {
     display: block;
     border-bottom: none;
@@ -80,4 +84,9 @@ h2 {
     margin-top: 1em;
     border-radius: 2px;
     position: 0;
+}
+
+#appNote {
+    text-align: center;
+    padding: 50px;
 }
