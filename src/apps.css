@@ -1,5 +1,5 @@
+/* Inspired by @timQUT (CodePen) */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 
 * {
   margin: 0px;
@@ -15,7 +15,7 @@ main {
   max-width: 1200px;
   margin: auto;
   min-height: 100vh;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 h2 {
