@@ -2,87 +2,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
-  color: black;
+    color: black;
 }
 
 main {
-  max-width: 1200px;
-  margin: auto;
-  min-height: 100vh;
-  margin-top: 60px;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+    margin-top: 60px;
 }
 
 h2 {
-  padding: 20px 0px;
-  text-align: center;
+    padding: 20px 0px;
+    text-align: center;
 }
 
 .card-row {
-  display: flex;
-/*   flex-flow: row wrap; */
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-/*   margin:  0px 10px; */
+    display: flex;
+    /*   flex-flow: row wrap; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*   margin:  0px 10px; */
 }
 
 .card {
-/*   width: 27%; */
-/*   padding: 2%; */
-/*   margin: 1%; */
-  width: 320px;
-  padding: 20px;
-  margin: 10px;
-  border: 1px solid #d7d7d7;
-  border-radius: 2px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-  background-color: white;
-  transition: 0.15s;
+    /*   width: 27%; */
+    /*   padding: 2%; */
+    /*   margin: 1%; */
+    width: 320px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #504f4f;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: rgb(57, 57, 57);
+    transition: 0.15s;
 }
 
 .card:hover {
-  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
-}
-.card > img {
-  border-radius: 2px;
-  max-width: 100%;
-  margin-bottom: 10px;
-  height: auto;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
-.card h3 {
-  color: purple;
+.card>img {
+    border-radius: 2px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: auto;
 }
 
 .card p {
-  color: #757575;
-  line-height: 1.5;
-  padding-top: 10px;
+    color: #f8f8f8;
+    line-height: 1.5;
+    padding-top: 10px;
 }
 
 .card a {
-  color: orangered;
-  text-decoration: none;
-  border-bottom: 1px dotted orange;
+    color: rgb(1, 236, 249);
+    text-decoration: none;
+    border-bottom: solid 1px rgb(139, 139, 139);
 }
 
 .card a.button-link {
-  display: block;
-  border-bottom: none;
-  padding: 1em;
-  text-align: center;
-  background-color: orangered;
-  color: white;
-  margin-top: 1em;
-  text-transform: uppercase;
-  border-radius: 2px;
-}
-
-.card h3 .fa {
-/*   color: purple; */
+    display: block;
+    border-bottom: none;
+    padding: 1em;
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 600% 600%;
+    animation: gradient 15s ease infinite;
+    color: white;
+    margin-top: 1em;
+    border-radius: 2px;
+    position: 0;
 }
