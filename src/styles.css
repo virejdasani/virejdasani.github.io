@@ -94,7 +94,7 @@ h2 {
   letter-spacing: 1px;
   font-size: 40px;
   font-family: 'JetBrains Mono', monospace;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .console-underscore {
@@ -120,7 +120,7 @@ h2 {
 
 
 #linkTree {
-  padding-top: 186px;
+  padding-top: 210px;
   padding-bottom: 200px;
   text-align: center;
 }
