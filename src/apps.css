@@ -1,149 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-/* Cards inspired by @zhohadamani (CodePen) */
-.projects-wrapper {
-    margin-top: 120px;
-    max-width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 0.5rem;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
 }
 
-.news-card {
-    border: 0px solid aqua;
-    margin: 0.5rem;
-    position: relative;
-    height: 12rem;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    flex: 1;
-    min-width: 290px;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
+body {
+  color: black;
 }
 
-@media (min-width: 900px) {
-
-    .news-card {
-        height: 20rem
-    }
+main {
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 100px;
 }
 
-.news-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);
-    ;
-    z-index: 0;
+h2 {
+  padding: 20px 0px;
+  text-align: center;
 }
 
-.news-card__card-link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+.card-row {
+  display: flex;
+/*   flex-flow: row wrap; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+/*   margin:  0px 10px; */
 }
 
-.news-card__image {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    transition: transform 3s ease;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    position: relative;
-    z-index: -1;
+.card {
+/*   width: 27%; */
+/*   padding: 2%; */
+/*   margin: 1%; */
+  width: 320px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  transition: 0.15s;
 }
 
-.news-card__text-wrapper {
-    position: absolute;
-    bottom: 0rem;
-    padding: 1rem;
-    color: white;
-    /*     background-color: rgba(0, 0, 0, 0.4); */
-    transition: background-color 1.5s ease;
+.card:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+}
+.card > img {
+  border-radius: 2px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  height: auto;
 }
 
-.news-card__title {
-    transition: color 1s ease;
-    margin-bottom: .5rem;
-    color: white;
+.card h3 {
+  color: purple;
 }
 
-.news-card__post-date {
-    font-size: .7rem;
-    margin-bottom: .5rem;
-    color: #CCC;
+.card p {
+  color: #757575;
+  line-height: 1.5;
+  padding-top: 10px;
 }
 
-.news-card__details-wrapper {
-    max-height: 0;
-    opacity: 0;
-    transition: max-height 1.5s ease, opacity 1s ease;
+.card a {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 1px dotted orange;
 }
 
-@media (min-width: 900px) {
-    .news-card:hover .news-card__details-wrapper {
-        max-height: 20rem;
-        opacity: 1;
-    }
-
-    .news-card:hover .news-card__text-wrapper {
-        background-color: rgba(0, 0, 0, 0.6);
-    }
-
-    .news-card:hover .news-card__title {
-        color: yellow;
-    }
-
-    .news-card:hover .news-card__image {
-        transform: scale(1.2);
-        z-index: -1;
-    }
+.card a.button-link {
+  display: block;
+  border-bottom: none;
+  padding: 1em;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  margin-top: 1em;
+  text-transform: uppercase;
+  border-radius: 2px;
 }
 
-.news-card__excerpt {
-    font-weight: 300;
-}
-
-.news-card__read-more {
-    background: black;
-    color: #bbb;
-    display: block;
-    padding: 0.4rem 0.6rem;
-    border-radius: 0.3rem;
-    margin-top: 1rem;
-    border: 1px solid #444;
-    font-size: 0.8rem;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    text-decoration: none;
-    width: 7rem;
-    margin-left: auto;
-    position: relative;
-    z-index: 5;
-}
-
-.news-card__read-more i {
-    position: relative;
-    left: 0.2rem;
-    color: #888;
-    transition: left 0.5s ease, color 0.6s ease;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.news-card__read-more:hover i {
-    left: 0.5rem;
-    color: yellow;
+.card h3 .fa {
+/*   color: purple; */
 }
