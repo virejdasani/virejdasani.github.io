@@ -14,7 +14,7 @@ body {
 main {
     max-width: 1200px;
     margin: auto;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin-top: 60px;
 }
 
@@ -89,4 +89,12 @@ h2 {
 #appNote {
     text-align: center;
     padding: 50px;
+}
+
+#otherProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-bottom: 60px;
 }
