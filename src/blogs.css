@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: rgb(254, 246, 235);
+    background-color: rgb(255, 250, 244);
 }
 
 @media(min-width: 850px) {
@@ -42,7 +42,7 @@ body {
     /* To make sure it is on top of any other content */
     z-index: 100;
     border-bottom: solid 1px rgb(190, 190, 190);
-    background-color: rgb(254, 246, 235);
+    background-color: rgb(255, 250, 244);
 }
 
 #navbarName {
