@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html,
+body,
+#resume {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+#resume {
+    border: solid 1px rgb(163, 163, 163);
+    padding: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.header {
+    font-family: 'Lato', Arial, Helvetica, "Noto Sans Devanagari", "Noto Sans CJK SC Thin", "Noto Sans SC", "Noto Sans Hebrew", sans-serif !important;
+}
+
+#softwareDev {
+    color: #10b810;
+}
+
+.sameLine {
+    display: inline-block;
+}
+
+#content-coloumn1 {
+    width: 50%;
+}
+
+#subHeading {
+    border-bottom: solid 3px #000;
+}
+
+#tech {
+    border: 1px solid transparent;
+    border-bottom-color: #a9a9a9;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
