@@ -5,12 +5,14 @@ body,
 #resume {
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
+    min-width: 600px;
 }
 
 #resume {
     border: solid 1px rgb(163, 163, 163);
     padding: 30px;
     width: 50%;
+    /* min-width: 500px; */
     margin-left: 25%;
 }
 
