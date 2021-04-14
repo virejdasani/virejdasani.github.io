@@ -8,6 +8,8 @@ body,
     min-width: 600px;
 }
 
+/* To print to pdf, set #resume width to 100% and remove margin-top from "html, body, #resume" */
+
 #resume {
     border: solid 1px rgb(163, 163, 163);
     padding: 30px;
