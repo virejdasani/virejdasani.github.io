@@ -1,12 +1,21 @@
-// https://stackoverflow.com/questions/43046674/how-to-use-a-function-from-another-js-file-in-reactjs
-module.exports = {
+function Title() {
+  return (
+    <div>
+      <div id="titleHead">
+        <h2>VIREJ DASANI</h2>
+        {displayDevText()}
+        <span className="typewriterText" id="typewriterText"></span>
+        <div id="underscore">_</div>
+      </div>
+    </div>
+  );
+
   // Developer text animation
   // The code below is fragile. Don't assign variables to reused pieces of code like: var text = document.getElementById("typewriterText")
   // This will BREAK the code
-  displayDevText: function () {
-    var words = [" Web Developer", " App Developer", " Game Developer"];
+  function displayDevText() {
+    var words = [" WEB DEVELOPER", " APP DEVELOPER", " GAME DEVELOPER"];
     var visible = true;
-    var con = document.getElementsByClassName("titleHead");
     var letterCount = 1;
     var x = 1;
     var waiting = false;
@@ -38,13 +47,14 @@ module.exports = {
     }, 45); // Text appearing speed => higher = slower
     window.setInterval(function () {
       if (visible === true) {
-        con.className = "headUnderscore hidden";
+        document.getElementById("underscore").style = "opacity: 0;";
         visible = false;
       } else {
-        con.className = "headUnderscore";
-
+        document.getElementById("underscore").style = "opacity: 1;";
         visible = true;
       }
     }, 300); // Cursor blinking speed => higher = slower
-  },
-};
+  }
+}
+
+export default Title;

@@ -1,12 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
   margin: 0;
   width: 100%;
   height: 100vh;
-  /* Gradient BG inspired by @P1N2O (Codepen) */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 600% 600%;
   animation: gradient 15s ease infinite;
@@ -15,23 +13,7 @@ body {
   flex-direction: column;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,700&display=swap');
-
-.titleHead {
+#titleHead {
   font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
   text-align: center;
@@ -47,7 +29,7 @@ body {
 
 #typewriterText {
   font-size: 20px;
-  font-weight: 510;
+  font-weight: 800;
   font-family: 'IBM Plex Mono', monospace;
   color: #000;
   background-image: linear-gradient(-90deg, rgb(131, 255, 73), rgb(131, 255, 73));
@@ -55,10 +37,26 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.headUnderscore {
+#underscore {
   display: inline-block;
   position: relative;
   top: -0.14em;
   left: 5px;
   color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }

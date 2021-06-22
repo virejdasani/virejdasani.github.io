@@ -1,14 +1,10 @@
-import {displayDevText} from "./Components/Functions";
+import Title from "./Components/Title";
 
 function App() {
   return (
     <div className="App">
-      <div className="titleHead">
-        <h2>VIREJ DASANI</h2>
-        {displayDevText()}
-        <span className="typewriterText" id="typewriterText"></span>
-        <div className="headUnderscore">&#95;</div>
-      </div>
+      {/* Name and software developer subtitle */}
+      <Title />
     </div>
   );
 }
