@@ -1,8 +1,10 @@
 function Title() {
   return (
     <div>
+      {/* <h3 id="greeting">👋, my name is</h3> */}
       <div id="titleHead">
         <h2>VIREJ DASANI</h2>
+        <h3 id="iAmA">I am a self-taught,</h3>
         {displayDevText()}
         <span className="typewriterText" id="typewriterText"></span>
         <div id="underscore">_</div>
