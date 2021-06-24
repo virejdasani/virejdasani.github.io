@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+#langsContainer {
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Nunito', sans-serif;
+  margin: auto;
+}
+
+#langsTitle {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+#langs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#highlightLang {
+  border-bottom: solid 2px rgba(55, 55, 55, 0.4);
+  padding: 5px;
+  width: 80px;
+  margin: 5px;
+}
+
+.langSeparator {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: rgba(55, 55, 55, 0.5);
+  /* display: none; */
+}

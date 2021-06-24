@@ -5,7 +5,7 @@ function Title() {
     <div>
       <div id="titleHead">
         <h2>VIREJ DASANI</h2>
-        <h3 id="iAmA">I am a self-taught</h3>
+        <h3 id="iAmA">I am a 16-year-old, self-taught</h3>
         {displayDevText()}
         <span className="typewriterText" id="typewriterText"></span>
         <div id="underscore">_</div>

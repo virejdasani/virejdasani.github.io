@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+#card {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 60px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 320px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #504f4f;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  /* background-color: rgb(57, 57, 57); */
+  background-color: rgba(58, 45, 45, 0.1);
+  transition: 0.15s;
+}
+
+.card:hover {
+  transition: 0.1s ease-in-out;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  width: 325px;
+}
+
+.card p {
+  color: #f8f8f8;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+.card a {
+  color: rgb(1, 236, 249);
+  text-decoration: none;
+  border-bottom: solid 1px rgb(139, 139, 139);
+}
+
+.appName {
+  font-size: 26px;
+}
+
+.card a.button-link {
+  display: block;
+  border-bottom: none;
+  padding: 1em;
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 600% 600%;
+  animation: gradient 15s ease infinite;
+  color: white;
+  margin-top: 1em;
+  border-radius: 2px;
+  position: 0;
+}
