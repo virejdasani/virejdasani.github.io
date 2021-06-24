@@ -65,3 +65,19 @@ h2 {
   border-radius: 2px;
   position: 0;
 }
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+#card {
+  display: inline-block;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
