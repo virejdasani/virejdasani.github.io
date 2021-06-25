@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,400&display=swap');
+
+#headingTitle {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  color: #2a2a2a;
+}

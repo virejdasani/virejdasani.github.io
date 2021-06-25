@@ -1,7 +1,7 @@
 import Title from "./Components/Title";
 import Navbar from "./Components/Navbar";
 import Languages from "./Components/Languages";
-import Card from "./Components/Card";
+import MobileProjects from "./Components/Projects/MobileProjects";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Title />
       {/* Languages I know */}
       <Languages />
-      <Card title="hi" description="hii" />
+      {/* Mobile Projects */}
+      <MobileProjects />
     </div>
   );
 }

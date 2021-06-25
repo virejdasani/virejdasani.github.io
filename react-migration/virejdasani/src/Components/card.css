@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 #card {
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 60px;
+  max-width: 380px;
+  margin-top: 30px;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -19,7 +18,7 @@ h2 {
 }
 
 .card {
-  width: 320px;
+  width: 380px;
   padding: 20px;
   margin: 10px;
   border: 1px solid #504f4f;
@@ -71,6 +70,8 @@ h2 {
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
