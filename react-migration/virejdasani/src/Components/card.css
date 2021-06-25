@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 #card {
-  max-width: 380px;
+  max-width: 298px;
   margin-top: 30px;
   font-family: 'Nunito', sans-serif;
 }
@@ -18,11 +18,11 @@ h2 {
 }
 
 .card {
-  width: 380px;
+  width: 298px;
   padding: 20px;
   margin: 10px;
   border: 1px solid #504f4f;
-  border-radius: 2px;
+  border-radius: 12px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
   /* background-color: rgb(57, 57, 57); */
   background-color: rgba(58, 45, 45, 0.1);
@@ -32,6 +32,7 @@ h2 {
 .card:hover {
   transition: 0.1s ease-in-out;
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  background-color: rgba(58, 45, 45, 0.2);
   width: 325px;
 }
 
@@ -51,18 +52,22 @@ h2 {
   font-size: 26px;
 }
 
-.card a.button-link {
+.card a.buttonLink {
   display: block;
   border-bottom: none;
-  padding: 1em;
+  padding: 14px;
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
   background-size: 600% 600%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 12s ease infinite;
   color: white;
-  margin-top: 1em;
-  border-radius: 2px;
+  margin-top: 6px;
+  border-radius: 6px;
   position: 0;
+}
+
+.card a.buttonLink:hover {
+  animation: gradient 2s ease infinite;
 }
 
 .scrolling-wrapper {
@@ -77,6 +82,7 @@ h2 {
 
 #card {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .scrolling-wrapper::-webkit-scrollbar {
