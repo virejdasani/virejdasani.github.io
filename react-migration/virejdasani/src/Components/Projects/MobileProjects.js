@@ -15,7 +15,7 @@ function MobileProjects() {
             <article className="card">
               <img
                 src={cteBanner}
-                alt="Convert To Everythinge fiwfiojwfojweoifjwoifoiwejfoijwefoijweoifjweoijfoiwejfoij"
+                alt="Convert To Everything"
                 height="125"
                 width="256"
               />
