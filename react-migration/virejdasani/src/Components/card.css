@@ -42,6 +42,7 @@ h2 {
   padding-top: 10px;
   white-space: pre-wrap;
   overflow-wrap: break-word;
+  text-shadow: 1px 1px #262626;
 }
 
 .card a {
@@ -77,6 +78,7 @@ h2 {
   border-radius: 6px;
   position: 0;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10);
+  text-shadow: none;
 }
 
 .card a.buttonLink:hover {
@@ -90,14 +92,13 @@ h2 {
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-
 
 #card {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .scrolling-wrapper::-webkit-scrollbar {
