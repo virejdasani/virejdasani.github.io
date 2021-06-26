@@ -2,6 +2,7 @@ import "./mobileProjects.css";
 import HeadingTitle from "../HeadingTitle";
 import Separator from "../Separator";
 import Card from "../Card";
+import GitHubProjects from "../GitHubProjects";
 
 function MobileProjects() {
   return (
@@ -65,6 +66,7 @@ function MobileProjects() {
           description="A minimal, user friendly app that converts voice to text accurately using Google voice recognition.
           It has a dark and light mode, and allows copying of text to clipboard."
         />
+        <GitHubProjects project="Mobile Apps And Games" />
       </div>
       <Separator />
     </div>
