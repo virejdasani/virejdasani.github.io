@@ -31,7 +31,7 @@ h2 {
 
 .card:hover {
   transition: 0.1s ease-in-out;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.25);
   background-color: rgba(58, 45, 45, 0.2);
   width: 325px;
 }
@@ -40,16 +40,18 @@ h2 {
   color: #f8f8f8;
   line-height: 1.5;
   padding-top: 10px;
+  white-space: pre-wrap;
 }
 
 .card a {
   color: rgb(1, 236, 249);
   text-decoration: none;
-  border-bottom: solid 1px rgb(139, 139, 139);
+  border-bottom: solid 1px rgb(79, 79, 79);
+  text-shadow: 1px 1px #262626;
 }
 
 .appName {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .card a.buttonLink {
@@ -64,10 +66,13 @@ h2 {
   margin-top: 6px;
   border-radius: 6px;
   position: 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10);
 }
 
 .card a.buttonLink:hover {
+  transition: 0.2s ease-in-out;
   animation: gradient 2s ease infinite;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.20);
 }
 
 .scrolling-wrapper {
