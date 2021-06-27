@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+#notFoundContainer {
+  height: 100%;
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+#backToHomeButton a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: black;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+#backToHomeButton:hover a {}
+
+#lostText {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+#errCodeText {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+}
