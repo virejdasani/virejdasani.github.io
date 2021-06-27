@@ -5,6 +5,7 @@ import Languages from "./Components/Languages";
 import MobileProjects from "./Components/Projects/MobileProjects";
 import DesktopProjects from "./Components/Projects/DesktopProjects";
 import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
+import NoteworthyProjects from "./Components/Projects/NoteworthyProjects";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
       {/* Extensions and Themes */}
       <ExtensionsThemes />
+      <Separator />
+
+      {/* Noteworthy Projects */}
+      <NoteworthyProjects />
       <Separator />
 
       {/* Languages I know */}

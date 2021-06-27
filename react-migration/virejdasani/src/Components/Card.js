@@ -5,12 +5,17 @@ function Card(props) {
     <div id="card">
       <section className="card-row">
         <article className="card">
-          <img
-            src={"img/projectLogos/" + props.img}
-            alt={props.name}
-            height={props.height}
-            width={props.width}
-          />
+          {/* If an img prop is passed, img is created else, "" */}
+          {props.img ? (
+            <img
+              src={"img/projectLogos/" + props.img}
+              alt={props.name}
+              height={props.height}
+              width={props.width}
+            />
+          ) : (
+            ""
+          )}
           <h3 className="appName">
             <a href={props.link}>{props.name}</a>
           </h3>
@@ -22,7 +27,7 @@ function Card(props) {
           <a href={props.link} className="buttonLink">
             {props.buttonText}
           </a>
-          {/* If the twoButtons prop is passed, another button is created */}
+          {/* If the twoButtons prop is passed, another button is created else, "" */}
           {props.twoButtons ? (
             <a href={props.link2} className="buttonLink">
               {props.buttonText2}
