@@ -1,0 +1,25 @@
+#navbar {
+  background: #0e0e0e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* To make sure it is on top of any other content */
+  z-index: 100;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+#navbar a:hover {
+  background-color: rgb(71, 71, 71);
+}
