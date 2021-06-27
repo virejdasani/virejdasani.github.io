@@ -22,6 +22,14 @@ function Card(props) {
           <a href={props.link} className="buttonLink">
             {props.buttonText}
           </a>
+          {/* If the twoButtons prop is passed, another button is created */}
+          {props.twoButtons ? (
+            <a href={props.link2} className="buttonLink">
+              {props.buttonText2}
+            </a>
+          ) : (
+            ""
+          )}
         </article>
       </section>
     </div>
@@ -37,8 +45,15 @@ height
 width
 buttonText
 description
+
 descriptionLinkText
 descriptionLink
+
+twoButtons
+link2
+buttonText2
 */
+
+Card.defaultProps = {};
 
 export default Card;

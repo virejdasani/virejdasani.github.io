@@ -4,10 +4,9 @@ import GitHubProjects from "../GitHubProjects";
 
 function DesktopProjects() {
   return (
-    <div id="mobileProjectsContainer">
+    <div id="desktopProjectsContainer">
       <HeadingTitle title="My Desktop Apps and Games" />
       <div className="scrolling-wrapper">
-        {/* Convert to everything */}
         <Card
           name="Responsivize"
           link="https://virejdasani.github.io/Responsivize/"

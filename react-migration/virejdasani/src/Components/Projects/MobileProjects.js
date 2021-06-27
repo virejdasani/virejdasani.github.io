@@ -7,7 +7,6 @@ function MobileProjects() {
     <div id="mobileProjectsContainer">
       <HeadingTitle title="My Mobile Apps and Games" />
       <div className="scrolling-wrapper">
-        {/* Convert to everything */}
         <Card
           name="Convert To Everything"
           link="https://play.google.com/store/apps/details?id=com.virej.converttoeverything"

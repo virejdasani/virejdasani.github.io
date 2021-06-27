@@ -21,18 +21,17 @@ h2 {
   width: 298px;
   padding: 20px;
   margin: 10px;
-  border: 1px solid #504f4f;
   border-radius: 12px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   /* background-color: rgb(57, 57, 57); */
-  background-color: rgba(58, 45, 45, 0.1);
+  background-color: rgba(58, 45, 45, 0.2);
   transition: 0.15s;
 }
 
 .card:hover {
   transition: 0.1s ease-in-out;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.25);
-  background-color: rgba(58, 45, 45, 0.2);
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgba(58, 45, 45, 0.3);
   width: 325px;
 }
 

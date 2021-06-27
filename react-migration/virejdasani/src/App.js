@@ -4,6 +4,7 @@ import Separator from "./Components/Separator";
 import Languages from "./Components/Languages";
 import MobileProjects from "./Components/Projects/MobileProjects";
 import DesktopProjects from "./Components/Projects/DesktopProjects";
+import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
 
       {/* Desktop Projects */}
       <DesktopProjects />
+      <Separator />
+
+      {/* Extensions and Themes */}
+      <ExtensionsThemes />
       <Separator />
 
       {/* Languages I know */}
