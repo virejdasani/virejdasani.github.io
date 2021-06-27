@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Separator from "./Components/Separator";
 import Languages from "./Components/Languages";
 import MobileProjects from "./Components/Projects/MobileProjects";
+import DesktopProjects from "./Components/Projects/DesktopProjects";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
 
       {/* Mobile Projects */}
       <MobileProjects />
+      <Separator />
+
+      {/* Desktop Projects */}
+      <DesktopProjects />
       <Separator />
 
       {/* Languages I know */}

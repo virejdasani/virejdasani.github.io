@@ -1,4 +1,3 @@
-import "./mobileProjects.css";
 import HeadingTitle from "../HeadingTitle";
 import Card from "../Card";
 import GitHubProjects from "../GitHubProjects";
