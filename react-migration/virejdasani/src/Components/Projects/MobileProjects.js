@@ -1,6 +1,5 @@
 import "./mobileProjects.css";
 import HeadingTitle from "../HeadingTitle";
-import Separator from "../Separator";
 import Card from "../Card";
 import GitHubProjects from "../GitHubProjects";
 
@@ -68,7 +67,6 @@ function MobileProjects() {
         />
         <GitHubProjects project="Mobile Apps And Games" />
       </div>
-      <Separator />
     </div>
   );
 }

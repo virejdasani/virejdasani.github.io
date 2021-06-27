@@ -1,6 +1,5 @@
 import "./languages.css";
 import HeadingTitle from "./HeadingTitle";
-import Separator from "./Separator";
 
 function Languages() {
   return (
@@ -29,7 +28,6 @@ function Languages() {
         <h4 id="highlightLang">CoffeeScript</h4>
         <h4 className="langSeparator">|</h4>
       </div>
-      <Separator />
     </div>
   );
 }
