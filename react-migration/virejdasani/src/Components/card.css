@@ -23,7 +23,6 @@ h2 {
   margin: 10px;
   border-radius: 12px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-  /* background-color: rgb(57, 57, 57); */
   background-color: rgba(58, 45, 45, 0.2);
   transition: 0.15s;
 }
