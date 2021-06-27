@@ -6,6 +6,7 @@ import MobileProjects from "./Components/Projects/MobileProjects";
 import DesktopProjects from "./Components/Projects/DesktopProjects";
 import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
 import NoteworthyProjects from "./Components/Projects/NoteworthyProjects";
+import Achievements from "./Components/Projects/Achievements";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
 
       {/* Noteworthy Projects */}
       <NoteworthyProjects />
+      <Separator />
+
+      {/* Achievements */}
+      <Achievements />
       <Separator />
 
       {/* Languages I know */}

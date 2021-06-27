@@ -8,7 +8,7 @@ function Card(props) {
           {/* If an img prop is passed, img is created else, "" */}
           {props.img ? (
             <img
-              src={"img/projectLogos/" + props.img}
+              src={"img/cardImgs/" + props.img}
               alt={props.name}
               height={props.height}
               width={props.width}
@@ -24,9 +24,15 @@ function Card(props) {
             {/* This is for any youtube links the descriptionLinkText would have 'here' and the ending of the description would have 'watch the video ' */}
             <a href={props.descriptionLink}>{props.descriptionLinkText}</a>
           </p>
-          <a href={props.link} className="buttonLink">
-            {props.buttonText}
-          </a>
+          {/* If buttonText is passed, only then make a button component */}
+          {props.buttonText ? (
+            <a href={props.link} className="buttonLink">
+              {props.buttonText}
+            </a>
+          ) : (
+            ""
+          )}
+
           {/* If the twoButtons prop is passed, another button is created else, "" */}
           {props.twoButtons ? (
             <a href={props.link2} className="buttonLink">
@@ -35,6 +41,7 @@ function Card(props) {
           ) : (
             ""
           )}
+          {props.date ? <p className="cardDate">{props.date}</p> : ""}
         </article>
       </section>
     </div>
@@ -50,6 +57,7 @@ height
 width
 buttonText
 description
+date
 
 descriptionLinkText
 descriptionLink
