@@ -76,7 +76,7 @@ function ExtensionsThemes() {
         <Card
           name="Wildly RGB"
           link="https://chrome.google.com/webstore/detail/wildly-rgb/kbbhopkneegfmjhdkncmbaijdloobhgh"
-          img={"wildlyRGB-small.png"}
+          img={"wildlyRGB.png"}
           width="240"
           height="160"
           buttonText="Download for Chrome"
@@ -88,7 +88,7 @@ function ExtensionsThemes() {
         <Card
           name="HYDROXY"
           link="https://marketplace.visualstudio.com/items?itemName=VirejDasani.hydroxy"
-          img={"hydroxyBanner-small.png"}
+          img={"hydroxyBanner.png"}
           width="240"
           height="160"
           buttonText="Download for VS Code"
