@@ -8,7 +8,7 @@ function DesktopProjects() {
       <HeadingTitle title="My Desktop Apps and Games" />
       <div className="scrolling-wrapper">
         <Card
-          name="KeystrokeCount"
+          name="Keystroke Count"
           link="https://virejdasani.github.io/KeystrokeCount/"
           img={"keystrokeCountBanner.png"}
           width="256"
