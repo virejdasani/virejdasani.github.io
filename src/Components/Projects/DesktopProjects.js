@@ -8,6 +8,15 @@ function DesktopProjects() {
       <HeadingTitle title="My Desktop Apps and Games" />
       <div className="scrolling-wrapper">
         <Card
+          name="KeystrokeCount"
+          link="https://virejdasani.github.io/KeystrokeCount/"
+          img={"keystrokeCountBanner.png"}
+          width="256"
+          height="125"
+          buttonText="Get Keystroke Count"
+          description="Keystroke Count is an open-source, cross-platform, desktop app that you can use to get data for your keystrokes! The app features a keyboard heatmap to visually show what keys you used the most! Also, No data is stored locally and NEVER collected"
+        />
+        <Card
           name="Responsivize"
           link="https://virejdasani.github.io/Responsivize/"
           img={"responsivizeBanner.png"}
