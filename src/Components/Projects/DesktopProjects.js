@@ -14,7 +14,7 @@ function DesktopProjects() {
           width="256"
           height="125"
           buttonText="Get Keystroke Count"
-          description="Keystroke Count is an open-source, cross-platform, desktop app that you can use to get data for your keystrokes! The app features a keyboard heatmap to visually show what keys you used the most! Also, No data is stored locally and NEVER collected"
+          description="Keystroke Count is an open-source, cross-platform, desktop app that you can use to get data for your keystrokes! The app features a keyboard heatmap to visually show what keys you used the most! Also, all data is stored locally and NEVER collected"
         />
         <Card
           name="Responsivize"
