@@ -8,6 +8,18 @@ function MobileProjects() {
       <HeadingTitle title="My Mobile Apps and Games" />
       <div className="scrolling-wrapper">
         <Card
+          name="Cuboidal Drift"
+          link="https://play.google.com/store/apps/details?id=com.VirejDasani.CuboidalDrift"
+          img={"cuboidalDriftBanner.png"}
+          width="256"
+          height="125"
+          buttonText="Get it on Google Play Store"
+          description="Cuboidal Drift is a casual, fun indie game where you play as a cube and your objective is to complete levels and not explode to dangerous spikes!
+          This game is completely open-source so you too can contribute to the game by doing stuff like adding new levels! It is also available for desktop platforms "
+          descriptionLink="https://virejdasani.itch.io/cuboidaldrift"
+          descriptionLinkText="here"
+        />
+        <Card
           name="Convert To Everything"
           link="https://play.google.com/store/apps/details?id=com.virej.converttoeverything"
           img={"cteBanner.png"}
