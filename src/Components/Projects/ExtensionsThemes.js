@@ -8,6 +8,18 @@ function ExtensionsThemes() {
       <HeadingTitle title="My Extensions and Themes" />
       <div className="scrolling-wrapper">
         <Card
+          name="Offline Text To Speech"
+          link="https://chrome.google.com/webstore/detail/offline-text-to-speech/ecnibbdjecjgllmkodkjnodmblmffkkp"
+          img={"offlineTTS-small.png"}
+          width="240"
+          height="160"
+          buttonText="Download for Chrome"
+          description="Offline Text To Speech is a cool and functional little browser extension that can speak any text you type or paste into it!"
+          twoButtons="true"
+          link2="https://addons.mozilla.org/en-US/firefox/addon/offline-text-to-speech/"
+          buttonText2="Download for Firefox"
+        />
+        <Card
           name="Hack This Page"
           link="https://chrome.google.com/webstore/detail/hack-this-page/nbfegodimhenhkghjeppighcbpdinhdp"
           img={"hackThisPage-small.png"}

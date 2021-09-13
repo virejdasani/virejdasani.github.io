@@ -15,6 +15,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* This is for firefox. Horizontal scrollbars are transparent */
+  scrollbar-color: transparent transparent;
 }
 
 @keyframes gradient {
@@ -30,3 +32,15 @@ body {
     background-position: 0% 50%;
   }
 }
+
+/* ::-webkit-scrollbar {
+  background-color: #e2e2e2;
+  width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b4b4b4;
+  border-radius: 6px;
+  background-clip: content-box;
+  min-height: 26px;
+} */
