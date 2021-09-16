@@ -22,15 +22,12 @@ h1 {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: lowercase;
-  font-size: 130px;
   margin: 10px 0;
   animation: spacify 2s ease;
   letter-spacing: 14px;
-
 }
 
 #tagline {
-  font-size: 24px;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
   color: rgb(171, 171, 171);
@@ -47,6 +44,84 @@ h1 {
   color: #FFF;
 
 }
+
+.buttonTopMargin {
+  position: absolute;
+  margin-bottom: 120px;
+}
+
+#titleButtons {
+  margin: 10px 0;
+}
+
+.bn632-hover {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn25 {
+  background-image: linear-gradient(to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376);
+  box-shadow: 0 4px 15px 0 rgba(33, 39, 47, 0.75);
+}
+
+/* For width < 499 */
+@media only screen and (max-width: 499px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  #tagline {
+    font-size: 16px;
+  }
+
+  .bn632-hover {
+    margin: 10px;
+  }
+}
+
+/* For width > 500 */
+@media only screen and (min-width: 500px) {
+  h1 {
+    font-size: 125px;
+  }
+
+  #tagline {
+    font-size: 24px;
+  }
+
+  .bn632-hover {
+    margin: 20px;
+  }
+}
+
 
 @keyframes spacify {
   from {
@@ -84,53 +159,4 @@ h1 {
   100% {
     background-position: 0% 50%;
   }
-}
-
-.buttonTopMargin {
-  position: absolute;
-  margin-bottom: 120px;
-}
-
-#titleButtons {
-  margin: 10px 0;
-}
-
-.bn632-hover {
-  width: 150px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align: center;
-  border: none;
-  background-size: 300% 100%;
-  border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.bn632-hover:hover {
-  background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.bn632-hover:focus {
-  outline: none;
-}
-
-.bn632-hover.bn25 {
-  background-image: linear-gradient(to right,
-      #29323c,
-      #485563,
-      #2b5876,
-      #4e4376);
-  box-shadow: 0 4px 15px 0 rgba(33, 39, 47, 0.75);
-  margin-top: 5vh;
 }

@@ -6,7 +6,6 @@ import App from "./App";
 import NotFound from "./NotFound";
 
 ReactDOM.render(
-  // <React.StrictMode>
   <Router>
     <Switch>
       <Route exact path="/" component={App} />
@@ -15,5 +14,4 @@ ReactDOM.render(
     </Switch>
   </Router>,
   document.getElementById("root")
-  // </React.StrictMode>,
 );
