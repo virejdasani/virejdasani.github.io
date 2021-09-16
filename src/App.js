@@ -20,7 +20,6 @@ function App() {
 
       {/* Name title and software developer subtitle */}
       <Title />
-      <Separator />
 
       {/* Mobile Projects */}
       <MobileProjects />

@@ -55,12 +55,10 @@ h1 {
 }
 
 .bn632-hover {
-  width: 150px;
-  font-size: 16px;
+
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  height: 55px;
   text-align: center;
   border: none;
   background-size: 300% 100%;
@@ -92,10 +90,28 @@ h1 {
   box-shadow: 0 4px 15px 0 rgba(33, 39, 47, 0.75);
 }
 
-/* For width < 499 */
-@media only screen and (max-width: 499px) {
+/* For width 300 - 399 */
+@media only screen and (min-width: 200px) and (max-width: 399px) {
   h1 {
     font-size: 60px;
+  }
+
+  #tagline {
+    font-size: 14px;
+  }
+
+  .bn632-hover {
+    margin: 8px;
+    width: 100px;
+    font-size: 12px;
+    height: 40px;
+  }
+}
+
+/* For width 400 - 599 */
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  h1 {
+    font-size: 90px;
   }
 
   #tagline {
@@ -104,13 +120,34 @@ h1 {
 
   .bn632-hover {
     margin: 10px;
+    width: 120px;
+    font-size: 14px;
+    height: 45px;
   }
 }
 
-/* For width > 500 */
-@media only screen and (min-width: 500px) {
+/* For width 600 - 999 */
+@media only screen and (min-width: 600px) and (max-width: 999px) {
   h1 {
     font-size: 125px;
+  }
+
+  #tagline {
+    font-size: 22px;
+  }
+
+  .bn632-hover {
+    margin: 20px;
+    width: 150px;
+    font-size: 16px;
+    height: 55px;
+  }
+}
+
+/* For width 900+ */
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 135px;
   }
 
   #tagline {
@@ -119,6 +156,9 @@ h1 {
 
   .bn632-hover {
     margin: 20px;
+    width: 150px;
+    font-size: 16px;
+    height: 55px;
   }
 }
 
@@ -144,19 +184,5 @@ h1 {
   to {
     letter-spacing: 0px;
     opacity: 1;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
   }
 }
