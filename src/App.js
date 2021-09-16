@@ -11,6 +11,10 @@ import Achievements from "./Components/Projects/Achievements";
 function App() {
   return (
     <div className="App">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
       {/* Navbar with img links */}
       <Navbar />
 
