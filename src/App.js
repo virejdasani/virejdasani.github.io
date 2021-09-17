@@ -49,7 +49,7 @@ function App() {
       {/* Achievements */}
       <Achievements />
 
-      <Separator id="contact" />
+      <Separator />
 
       <Contact />
     </div>

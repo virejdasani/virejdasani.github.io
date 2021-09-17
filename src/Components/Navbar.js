@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div id="navbar">
       {/* HOME */}
-      <a href="https://virejdasani.github.io">
+      <a href="#">
         <img src={"img/homeLogo.png"} alt="" height="22" width="22" />
       </a>
       {/* Instagram */}
@@ -17,7 +17,7 @@ function Navbar() {
       </a>
       {/* YouTube */}
       <a href="https://www.youtube.com/channel/UCRzS48bskynAxoI38BFypfQ">
-        <img src={"img/youtubeLogo.png"} alt="" height="22" width="27" />
+        <img src={"img/youtubeLogo.png"} alt="" height="23" width="22" />
       </a>
       {/* Linkedin */}
       <a href="https://www.linkedin.com/in/virej-dasani-b64470209/">
@@ -25,7 +25,7 @@ function Navbar() {
       </a>
       {/* PlayStore */}
       <a href="https://play.google.com/store/apps/developer?id=Virej+Dasani">
-        <img src={"img/playstoreLogo.png"} alt="" height="22" width="18" />
+        <img src={"img/playstoreLogo.png"} alt="" height="22" width="21" />
       </a>
       {/* Dev */}
       <a href="https://dev.to/virejdasani">
