@@ -63,9 +63,8 @@ function DesktopProjects() {
           img={"rapidReadBanner.png"}
           width="256"
           height="125"
-          buttonText="Get it on Google Play Store"
-          description="A minimal, user friendly app that converts voice to text accurately using Google voice recognition.
-          It has a dark and light mode, and allows copying of text to clipboard."
+          buttonText="Get Rapid Read"
+          description="Rapid Read is an open source app that helps you read quicker! We can read quicker if we remove the need for our eyes to travel from one word to the next when reading. Rapid Read does just that!"
         />
         <GitHubProjects project="Desktop Apps And Games" />
       </div>

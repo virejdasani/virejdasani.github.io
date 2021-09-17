@@ -93,8 +93,9 @@ h2 {
 
 .card a.buttonLink:hover {
   transition: 0.2s ease-in-out;
-  animation: gradient 2s ease infinite;
+  background: rgb(27, 27, 27);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.20);
+
 }
 
 .scrolling-wrapper {

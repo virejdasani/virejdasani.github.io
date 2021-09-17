@@ -56,6 +56,13 @@ function NoteworthyProjects() {
           buttonText2="Get Make Java Easy"
         />
         <Card
+          name="Offline TTS"
+          link="https://www.npmjs.com/package/offline-tts"
+          buttonText="Check it out on NPM"
+          description="Offline-TTS is a NPM package that makes using the text-to-speech web API very easy to implement to your website!
+          `npm i offline-tts`"
+        />
+        <Card
           name="Commited"
           link="https://github.com/virejdasani/Commited"
           buttonText="Check it out on GitHub"
