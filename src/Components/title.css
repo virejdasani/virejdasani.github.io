@@ -16,7 +16,7 @@
 }
 
 h1 {
-  background-image: url("gif/loopedWaves.gif");
+  background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/loopedWaves.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
