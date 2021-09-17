@@ -16,7 +16,7 @@
 }
 
 h1 {
-  background-image: url(https://media.giphy.com/media/10Ua7rs9fxa8QE/giphy.gif?cid=ecf05e47wpm625w7zv2bk68daxd20otskh4wyp5ap44k4n2z&rid=giphy.gif&ct=g);
+  background-image: url("gif/loopedWaves.gif");
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
