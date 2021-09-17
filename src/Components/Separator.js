@@ -1,7 +1,7 @@
 import "./separator.css";
 
-function Separator() {
-  return <div id="separator"></div>;
+function Separator(props) {
+  return <div id={props.id} className="separator"></div>;
 }
 
 export default Separator;

@@ -4,6 +4,17 @@
   max-width: 298px;
   margin-top: 30px;
   font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#cardSmall {
+  margin-top: 30px;
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  margin-right: 20px;
+  width: 33%;
+  min-width: 160px;
 }
 
 h2 {
@@ -92,11 +103,6 @@ h2 {
   -webkit-overflow-scrolling: touch;
   margin-left: 2%;
   margin-right: 2%;
-}
-
-#card {
-  display: inline-block;
-  margin-right: 30px;
 }
 
 .card .cardDate {

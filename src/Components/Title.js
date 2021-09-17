@@ -12,9 +12,15 @@ function Title() {
         </h3>
         <div className="buttonTopMargin"></div>
         <div id="titleButtons">
-          <button className="bn632-hover bn25">Skills</button>
-          <button className="bn632-hover bn25">Projects</button>
-          <button className="bn632-hover bn25">Contact</button>
+          <a href="#skills">
+            <button className="bn632-hover bn25">Skills</button>
+          </a>
+          <a href="#projects">
+            <button className="bn632-hover bn25">Projects</button>
+          </a>
+          <a href="#contact">
+            <button className="bn632-hover bn25">Contact</button>
+          </a>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import "./card.css";
 
 function Card(props) {
   return (
-    <div id="card">
+    <div id={props.small ? "cardSmall" : "card"}>
       <section className="card-row">
         <article className="card">
           {/* If an img prop is passed, img is created else, "" */}

@@ -1,7 +1,7 @@
 import Title from "./Components/Title";
 import Navbar from "./Components/Navbar";
 import Separator from "./Components/Separator";
-// import Languages from "./Components/Languages";
+import Skills from "./Components/Skills";
 import MobileProjects from "./Components/Projects/MobileProjects";
 import DesktopProjects from "./Components/Projects/DesktopProjects";
 import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
@@ -20,7 +20,11 @@ function App() {
 
       {/* Name title and software developer subtitle */}
       <Title />
-      <Separator />
+      <Separator id="skills" />
+
+      {/* Skills */}
+      <Skills />
+      <Separator id="projects" />
 
       {/* Mobile Projects */}
       <MobileProjects />
