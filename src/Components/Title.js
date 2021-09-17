@@ -18,6 +18,9 @@ function Title() {
           <a href="#projects">
             <button className="bn632-hover bn25">Projects</button>
           </a>
+          <a href="#honours">
+            <button className="bn632-hover bn25">Honours</button>
+          </a>
           <a href="#contact">
             <button className="bn632-hover bn25">Contact</button>
           </a>

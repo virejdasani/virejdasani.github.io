@@ -7,6 +7,7 @@ import DesktopProjects from "./Components/Projects/DesktopProjects";
 import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
 import NoteworthyProjects from "./Components/Projects/NoteworthyProjects";
 import Achievements from "./Components/Projects/Achievements";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -20,10 +21,12 @@ function App() {
 
       {/* Name title and software developer subtitle */}
       <Title />
+
       <Separator id="skills" />
 
       {/* Skills */}
       <Skills />
+
       <Separator id="projects" />
 
       {/* Mobile Projects */}
@@ -40,14 +43,15 @@ function App() {
 
       {/* Noteworthy Projects */}
       <NoteworthyProjects />
-      <Separator />
+
+      <Separator id="honours" />
 
       {/* Achievements */}
       <Achievements />
-      <Separator />
 
-      {/* Languages I know */}
-      {/* <Languages /> */}
+      <Separator id="contact" />
+
+      <Contact />
     </div>
   );
 }
