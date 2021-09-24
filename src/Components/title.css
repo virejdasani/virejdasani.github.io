@@ -55,7 +55,6 @@ h1 {
 }
 
 .bn632-hover {
-
   font-weight: 600;
   color: #fff;
   cursor: pointer;
@@ -79,6 +78,7 @@ h1 {
 
 .bn632-hover:focus {
   outline: none;
+  box-shadow: none;
 }
 
 .bn632-hover.bn25 {
@@ -90,7 +90,7 @@ h1 {
   box-shadow: 0 4px 15px 0 rgba(33, 39, 47, 0.75);
 }
 
-/* For width 300 - 399 */
+/* For width 200 - 399 */
 @media only screen and (min-width: 200px) and (max-width: 399px) {
   h1 {
     font-size: 60px;
@@ -111,7 +111,7 @@ h1 {
 /* For width 400 - 599 */
 @media only screen and (min-width: 400px) and (max-width: 599px) {
   h1 {
-    font-size: 90px;
+    font-size: 84px;
   }
 
   #tagline {

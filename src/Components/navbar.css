@@ -25,7 +25,8 @@
 /* For width < 399 */
 @media only screen and (max-width: 399px) {
   #navbar a {
-    padding-right: 16px;
+    padding-right: 7px;
+    padding-left: 7px;
   }
 }
 
