@@ -16,7 +16,6 @@ body {
   /* This is for firefox. Horizontal scrollbars are transparent */
   scrollbar-color: transparent transparent;
   /* overflow-x: hidden; */
-
 }
 
 @keyframes gradient {

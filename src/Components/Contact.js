@@ -2,7 +2,7 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <div id="contact">
+    <div id="contact" className="gradientGalaxy">
       <div id="titleHead">
         <h2 id="getInTouch">Get in touch</h2>
         <div className="buttonTopMargin"></div>
