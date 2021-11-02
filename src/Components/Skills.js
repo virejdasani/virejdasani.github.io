@@ -19,6 +19,8 @@ HTML
 CSS
 Node JS
 React JS
+Tailwind CSS
+TailBlocks
 Electron JS
 Neutralino JS
 Bootstrap
