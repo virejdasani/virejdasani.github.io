@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 #titleHead {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   color: #FFF;
   display: flex;
@@ -16,8 +18,10 @@
 }
 
 h1 {
-  background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/loopedWaves.gif);
+  /* background-image: url(https://media.giphy.com/media/aCCleAr6W1njtygxHC/giphy.gif); */
+  background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/titleBG.gif);
   background-size: cover;
+  background-position: -10px;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
