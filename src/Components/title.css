@@ -18,9 +18,9 @@
 }
 
 h1 {
-
+  background-color: white;
   /* background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/loopedWaves.gif); */
-  background-image: url(https://media.giphy.com/media/3oz8xZ1t7hxPfe19M4/giphy-downsized.gif);
+  background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/titleBG.gif);
   color: transparent;
   background-size: cover;
   background-position: -10px;
@@ -93,9 +93,11 @@ h1 {
       #2b5876,
       #4e4376);
   box-shadow: 0 4px 15px 0 rgba(33, 39, 47, 0.75);
-  background-color: white;
-  background-image: url(https://media.giphy.com/media/3oz8xZ1t7hxPfe19M4/giphy-downsized.gif);
-  background-size: 100%;
+  background-color: transparent;
+  background-image: url(https://media.giphy.com/media/3oxHQy8tANyw2Wx7Dq/giphy.gif);
+  background-size: 650%;
+  background-position: -10px;
+  color: white;
 }
 
 /* For width 200 - 399 */
