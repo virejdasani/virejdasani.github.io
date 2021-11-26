@@ -18,7 +18,7 @@
 }
 
 h1 {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   /* background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/loopedWaves.gif); */
   background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/titleBG.gif);
   color: transparent;
@@ -74,7 +74,7 @@ h1 {
 }
 
 .bn632-hover:hover {
-  background-position: 100% 0;
+  background-position: 90% 10%;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -94,10 +94,11 @@ h1 {
       #4e4376);
   box-shadow: 0 4px 15px 0 rgba(33, 39, 47, 0.75);
   background-color: transparent;
-  background-image: url(https://media.giphy.com/media/3oxHQy8tANyw2Wx7Dq/giphy.gif);
-  background-size: 650%;
-  background-position: -10px;
+  background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/trippyLight.gif);
+  background-size: 400%;
   color: white;
+  background-position: 90% 10%;
+
 }
 
 /* For width 200 - 399 */
