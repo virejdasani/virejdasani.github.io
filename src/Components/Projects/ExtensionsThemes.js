@@ -8,6 +8,18 @@ function ExtensionsThemes() {
       <HeadingTitle title="My Extensions and Themes" />
       <div className="scrolling-wrapper">
         <Card
+          name="In Your Face"
+          link="https://marketplace.visualstudio.com/items?itemName=VirejDasani.in-your-face"
+          img={"inyourface-smallBanner.png"}
+          width="240"
+          height="160"
+          buttonText="Download for VS Code"
+          description="In Your Face shows you Doom 'Ouch Faces' that correlate to the number of errors in your code!"
+          twoButtons="true"
+          link2="https://www.youtube.com/watch?v=SGFNhz91yNQ"
+          buttonText2="How I made this extension"
+        />
+        <Card
           name="Offline Text To Speech"
           link="https://chrome.google.com/webstore/detail/offline-text-to-speech/ecnibbdjecjgllmkodkjnodmblmffkkp"
           img={"offlineTTS-small.png"}
