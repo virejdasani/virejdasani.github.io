@@ -15,7 +15,7 @@ function Achievements() {
         />
         <Card
           name="Completed Hacktoberfest 2020"
-          link="https://www.hackerrank.com/certificates/0e05337058dc"
+          link=""
           img={"hacktoberfestSwag.jpeg"}
           width="100%"
           date="Oct 2020"
