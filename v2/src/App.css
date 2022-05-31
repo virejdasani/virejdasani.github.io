@@ -1,0 +1,25 @@
+.landing {
+  margin-top: 20vh;
+}
+
+.title {
+  /* min, default, max */
+  font-size: clamp(1px, 6vw, 60px);
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+.subtitle {
+  /* min, default, max */
+  font-size: clamp(1px, 2vw, 25px);
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+.akira {
+  font-family: "akira";
+}
+
+.glendale {
+  font-family: "glendale";
+}
