@@ -73,7 +73,12 @@ function App() {
         </div>
         {/* absolute and responsive image */}
         <div className="landing-image-container">
-          <img
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 2 }}
             className="landing-image"
             src={require("./img/transparent-virej-welcome-memoji.png")}
             alt=""
