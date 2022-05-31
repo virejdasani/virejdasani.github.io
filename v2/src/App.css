@@ -4,7 +4,7 @@
 
 .title {
   /* min, default, max */
-  font-size: clamp(1px, 6vw, 60px);
+  font-size: clamp(1px, 5vw, 60px);
   margin-left: 30px;
   margin-right: 25px;
 }
@@ -15,6 +15,18 @@
   margin-left: 30px;
   margin-right: 25px;
 }
+
+.wave-image {
+  /* absolute and responsive image */
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 16vh;
+  right: 10px;
+  width: 30%;
+}
+
+.wave-image-container {}
 
 .akira {
   font-family: "akira";

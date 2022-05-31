@@ -69,6 +69,14 @@ function App() {
             })}
           </div>
         </motion.div>
+        {/* absolute and responsive image */}
+        <div className="wave-image-container">
+          <img
+            className="wave-image"
+            src={require("./img/transparent-virej-welcome-memoji.png")}
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
