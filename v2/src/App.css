@@ -16,17 +16,21 @@
   margin-right: 25px;
 }
 
-.wave-image {
+.landing-image {
   /* absolute and responsive image */
   object-fit: cover;
   object-position: center;
   position: absolute;
   top: 16vh;
-  right: 10px;
+  left: 70%;
   width: 30%;
 }
 
-.wave-image-container {}
+@media all and (min-width: 1250px) {
+  .landing-image {
+    left: 65%;
+  }
+}
 
 .akira {
   font-family: "akira";

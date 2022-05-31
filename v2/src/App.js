@@ -39,40 +39,42 @@ function App() {
   return (
     <div className="App">
       <div className="landing">
-        {/*
-          Virej Dasani
-      */}
-        <motion.div
-          className="glendale title"
-          initial="hidden"
-          animate="visible"
-          variants={container}
-        >
-          <div className="container">
-            {titleToAnimate.map((item, index) => {
-              return <AnimatedTitle {...item} key={index} />;
-            })}
-          </div>
-        </motion.div>
-        {/*
-          Web Dev  •  App Dev  •  Game Dev
-      */}
-        <motion.div
-          className="akira subtitle"
-          initial="hidden"
-          animate="visible"
-          variants={container}
-        >
-          <div className="container">
-            {subtitleToAnimate.map((item, index) => {
-              return <AnimatedSubtitle {...item} key={index} />;
-            })}
-          </div>
-        </motion.div>
+        <div className="landing-text">
+          {/*
+              Virej Dasani
+          */}
+          <motion.div
+            className="glendale title"
+            initial="hidden"
+            animate="visible"
+            variants={container}
+          >
+            <div className="container">
+              {titleToAnimate.map((item, index) => {
+                return <AnimatedTitle {...item} key={index} />;
+              })}
+            </div>
+          </motion.div>
+          {/*
+              Web Dev  •  App Dev  •  Game Dev
+          */}
+          <motion.div
+            className="akira subtitle"
+            initial="hidden"
+            animate="visible"
+            variants={container}
+          >
+            <div className="container">
+              {subtitleToAnimate.map((item, index) => {
+                return <AnimatedSubtitle {...item} key={index} />;
+              })}
+            </div>
+          </motion.div>
+        </div>
         {/* absolute and responsive image */}
-        <div className="wave-image-container">
+        <div className="landing-image-container">
           <img
-            className="wave-image"
+            className="landing-image"
             src={require("./img/transparent-virej-welcome-memoji.png")}
             alt=""
           />
