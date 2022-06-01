@@ -14,6 +14,7 @@
   font-size: clamp(1px, 2vw, 25px);
   margin-left: 30px;
   margin-right: 25px;
+
 }
 
 .landing-image {
@@ -24,6 +25,21 @@
   top: 16vh;
   left: 70%;
   width: 30%;
+}
+
+.styledLink {
+  color: #fff;
+  text-decoration: none;
+  /* increase spacing between letters */
+}
+
+.spacingDot {
+  color: transparent;
+  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #FFF7AD, #ADFFCE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 10s ease infinite;
 }
 
 @media all and (min-width: 1250px) {
@@ -38,4 +54,18 @@
 
 .glendale {
   font-family: "glendale";
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }

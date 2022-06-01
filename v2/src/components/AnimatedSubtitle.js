@@ -51,33 +51,47 @@ const AnimatedCharacters = (props) => {
   const Tag = tagMap[props.type];
 
   return (
-    <Tag>
-      {words.map((word, index) => {
-        return (
-          // Wrap each word in the Wrapper component
-          <Wrapper key={index}>
-            {words[index].flat().map((element, index) => {
-              return (
-                <span
-                  style={{
-                    overflow: "hidden",
-                    display: "inline-block",
-                  }}
-                  key={index}
-                >
-                  <motion.span
-                    style={{ display: "inline-block" }}
-                    variants={item}
+    <motion.div
+      style={{
+        display: "inline-block",
+      }}
+      whileHover={{ scale: 1.05, letterSpacing: "0.1em" }}
+      whileTap={{ scale: 0.95 }}
+    >
+      <Tag>
+        {words.map((word, index) => {
+          return (
+            // Wrap each word in the Wrapper component
+            <Wrapper key={index}>
+              {words[index].flat().map((element, index) => {
+                return (
+                  <span
+                    style={{
+                      overflow: "hidden",
+                      display: "inline-block",
+                    }}
+                    key={index}
                   >
-                    {element}
-                  </motion.span>
-                </span>
-              );
-            })}
-          </Wrapper>
-        );
-      })}
-    </Tag>
+                    <motion.span
+                      style={{ display: "inline-block" }}
+                      variants={item}
+                    >
+                      {props.link ? (
+                        <a className="styledLink" href={props.link}>
+                          {element}
+                        </a>
+                      ) : (
+                        <p className="spacingDot">{element}</p>
+                      )}
+                    </motion.span>
+                  </span>
+                );
+              })}
+            </Wrapper>
+          );
+        })}
+      </Tag>
+    </motion.div>
   );
 };
 

@@ -7,7 +7,7 @@ function App() {
   const container = {
     visible: {
       transition: {
-        staggerChildren: 0.025,
+        staggerChildren: 0.03,
       },
     },
   };
@@ -30,9 +30,36 @@ function App() {
   const subtitleToAnimate = [
     {
       type: "heading2",
-      text: "Web Dev  •  App Dev  •  Game Dev",
+      text: "About me",
       hiddenColor: "#FF0088",
       visibleColor: "#fff",
+      link: "#about",
+    },
+    {
+      type: "heading2",
+      text: "  •  ",
+      hiddenColor: "#FF0088",
+      visibleColor: "#fff",
+    },
+    {
+      type: "heading2",
+      text: "skills",
+      hiddenColor: "#FF0088",
+      visibleColor: "#fff",
+      link: "#skills",
+    },
+    {
+      type: "heading2",
+      text: "  •  ",
+      hiddenColor: "#FF0088",
+      visibleColor: "#fff",
+    },
+    {
+      type: "heading2",
+      text: "projects",
+      hiddenColor: "#FF0088",
+      visibleColor: "#fff",
+      link: "#projects",
     },
   ];
 
@@ -71,7 +98,7 @@ function App() {
             </div>
           </motion.div>
         </div>
-        {/* absolute and responsive image */}
+        {/* welcome memoji */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -79,8 +106,8 @@ function App() {
           className="landing-image-container"
         >
           <motion.img
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             className="landing-image"
             src={require("./img/transparent-virej-welcome-memoji.png")}
             alt=""
