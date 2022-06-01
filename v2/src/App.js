@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import AnimatedTitle from "./components/animations/AnimatedTitle";
 import AnimatedSubtitle from "./components/animations/AnimatedSubtitle";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   const container = {
@@ -65,7 +66,7 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div className="App" id="virej">
       <div className="landing">
         <div className="landing-text">
           {/*
@@ -117,6 +118,7 @@ function App() {
       </div>
 
       <About />
+      <Skills />
     </div>
   );
 }

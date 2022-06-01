@@ -1,36 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AnimatedTitle from "./animations/AnimatedTitle";
+import Scroller from "./Scroller";
 
-function About() {
+function Skills() {
   const titleToAnimate = [
     {
       type: "heading2",
-      text: "About Me",
+      text: "My Skills",
       hiddenColor: "#FF0088",
       visibleColor: "#fb9fa4",
     },
   ];
 
-  const subtitleToAnimate = [
-    {
-      type: "paragraph",
-      text: "I'm a 17 year old student",
-      hiddenColor: "#FF0088",
-      visibleColor: "#fff",
-    },
-    {
-      type: "paragraph",
-      text: "and self-taught Web, App, & Game developer",
-      hiddenColor: "#FF0088",
-      visibleColor: "#fff",
-    },
-  ];
-
-  // I'm a 17 year old student, and self-taught Web, App, & Game developer
-
   return (
-    <div id="about" className="about">
+    <div id="skills" className="skills">
       <motion.div
         className="akira"
         initial="hidden"
@@ -69,13 +53,7 @@ function About() {
             },
           },
         }}
-      >
-        <div className="container">
-          {subtitleToAnimate.map((item, index) => {
-            return <AnimatedTitle {...item} key={index} />;
-          })}
-        </div>
-      </motion.div>
+      ></motion.div>
       <motion.div className="about-image-container">
         <motion.img
           whileHover={{ scale: 1.05 }}
@@ -88,8 +66,10 @@ function About() {
           alt=""
         />
       </motion.div>
+
+      <Scroller />
     </div>
   );
 }
 
-export default About;
+export default Skills;
