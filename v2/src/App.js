@@ -1,7 +1,8 @@
 import "./App.css";
 import { motion } from "framer-motion";
-import AnimatedTitle from "./components/AnimatedTitle";
-import AnimatedSubtitle from "./components/AnimatedSubtitle";
+import AnimatedTitle from "./components/animations/AnimatedTitle";
+import AnimatedSubtitle from "./components/animations/AnimatedSubtitle";
+import About from "./components/About";
 
 function App() {
   const container = {
@@ -114,6 +115,8 @@ function App() {
           />
         </motion.div>
       </div>
+
+      <About />
     </div>
   );
 }

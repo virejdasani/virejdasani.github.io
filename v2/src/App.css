@@ -1,5 +1,14 @@
 .landing {
   margin-top: 20vh;
+  height: 100vh;
+}
+
+.about {
+  font-size: clamp(1px, 5vw, 60px);
+  padding-top: 20vh;
+  height: 100vh;
+  margin-left: 30px;
+  margin-right: 25px;
 }
 
 .title {
@@ -23,6 +32,22 @@
   object-position: center;
   position: absolute;
   top: 16vh;
+  left: 70%;
+  width: 30%;
+}
+
+.about-subtitle {
+  /* min, default, max */
+  font-size: clamp(1px, 3.6vw, 40px);
+  margin-top: 30px;
+}
+
+.about-image {
+  /* absolute and responsive image */
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 132vh;
   left: 70%;
   width: 30%;
 }
@@ -55,6 +80,17 @@
 .glendale {
   font-family: "glendale";
 }
+
+.poppins {
+  font-family: "poppins";
+}
+
+.roboto {
+  font-family: "roboto";
+}
+
+
+
 
 @keyframes gradient {
   0% {
