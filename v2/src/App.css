@@ -67,12 +67,14 @@
 }
 
 .spacingDot {
-  color: transparent;
+  /* color: transparent;
   background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #FFF7AD, #ADFFCE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 300% 300%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite; */
+  color: rgb(176, 176, 176);
+
 }
 
 @media all and (min-width: 1250px) {

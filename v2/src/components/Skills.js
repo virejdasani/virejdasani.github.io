@@ -19,7 +19,7 @@ function Skills() {
         className="akira"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: false }}
+        viewport={{ once: true }}
         transition={{ duration: 0.05 }}
         // variants={{
         //   visible: { opacity: 1, scale: 1 },
