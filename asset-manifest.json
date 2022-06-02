@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3bf7863.chunk.css",
-    "main.js": "/static/js/main.069c8f90.chunk.js",
-    "main.js.map": "/static/js/main.069c8f90.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8ec41d10.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8ec41d10.js.map",
-    "static/js/2.a5791ff8.chunk.js": "/static/js/2.a5791ff8.chunk.js",
-    "static/js/2.a5791ff8.chunk.js.map": "/static/js/2.a5791ff8.chunk.js.map",
+    "main.css": "/static/css/main.f9d84bf8.css",
+    "main.js": "/static/js/main.064212c0.js",
+    "static/media/transparent-virej-welcome-memoji.png": "/static/media/transparent-virej-welcome-memoji.62aa185c9598460b77d9.png",
+    "static/media/virej-wave-memoji.png": "/static/media/virej-wave-memoji.e4fd0ba46fd2d908c874.png",
+    "static/media/akira.otf": "/static/media/akira.5198553380d9bb727554.otf",
+    "static/media/Glendale-Bold.otf": "/static/media/Glendale-Bold.0fc5feef7c85b83809a4.otf",
+    "static/media/Glendale-Light.otf": "/static/media/Glendale-Light.c42aa273099f5c1c90b0.otf",
+    "static/media/Glendale-Regular.otf": "/static/media/Glendale-Regular.3b145300f407fa645f78.otf",
     "index.html": "/index.html",
-    "static/css/main.c3bf7863.chunk.css.map": "/static/css/main.c3bf7863.chunk.css.map",
-    "static/js/2.a5791ff8.chunk.js.LICENSE.txt": "/static/js/2.a5791ff8.chunk.js.LICENSE.txt",
-    "static/media/contact.css": "/static/media/gradientGalaxy.f69f21a7.png"
+    "main.f9d84bf8.css.map": "/static/css/main.f9d84bf8.css.map",
+    "main.064212c0.js.map": "/static/js/main.064212c0.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ec41d10.js",
-    "static/js/2.a5791ff8.chunk.js",
-    "static/css/main.c3bf7863.chunk.css",
-    "static/js/main.069c8f90.chunk.js"
+    "static/css/main.f9d84bf8.css",
+    "static/js/main.064212c0.js"
   ]
 }
