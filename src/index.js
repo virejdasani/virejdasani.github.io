@@ -1,17 +1,16 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import App from "./App";
-import NotFound from "./NotFound";
 
-ReactDOM.render(
-  <Router>
-    <Switch>
-      <Route exact path="/" component={App} />
-      <Route exact path="/virej" component={App} />
-      <Route component={NotFound} />
-    </Switch>
-  </Router>,
-  document.getElementById("root")
+import "./fonts/akira/akira.otf";
+import "./fonts/glendale/Glendale-Light.otf";
+import "./fonts/glendale/Glendale-Regular.otf";
+import "./fonts/glendale/Glendale-Bold.otf";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
