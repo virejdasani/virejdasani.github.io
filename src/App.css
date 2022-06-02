@@ -27,6 +27,8 @@
   position: absolute;
   top: 246vh;
   z-index: -100;
+  width: 90vw;
+  overflow: hidden;
 }
 
 .title {

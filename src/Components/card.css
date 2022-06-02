@@ -47,7 +47,6 @@
   padding-top: 10px;
   white-space: pre-wrap;
   overflow-wrap: break-word;
-  text-shadow: 1px 1px #262626;
   font-size: 20px;
 }
 
@@ -55,7 +54,6 @@
   color: rgb(1, 236, 249);
   text-decoration: none;
   border-bottom: solid 1px rgb(79, 79, 79);
-  text-shadow: 1px 1px #262626;
   white-space: pre-wrap;
   overflow-wrap: break-word;
 }

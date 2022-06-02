@@ -4,6 +4,8 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
+  transition: 0.4s ease-in-out;
+
   }
   .styledLink {
     color: ${({ theme }) => theme.styledLink};
