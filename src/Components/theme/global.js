@@ -14,5 +14,7 @@ export const GlobalStyles = createGlobalStyle`
   .about-description {
     color: ${({ theme }) => theme.aboutDescription};
   }
-
+  .card {
+    background-color: ${({ theme }) => theme.card};
+  }
 `;

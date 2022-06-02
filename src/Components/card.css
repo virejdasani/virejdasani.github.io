@@ -30,14 +30,14 @@
   margin: 10px;
   border-radius: 12px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-  background-color: rgba(78, 78, 78, 0.25);
+  background-color: #4e4e4e40;
   transition: 0.15s;
 }
 
 .card:hover {
   transition: 0.1s ease-in-out;
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
-  background-color: rgba(57, 57, 57, 0.6);
+  background-color: #39393999;
   width: 325px;
 }
 

@@ -6,6 +6,7 @@ export const lightTheme = {
   dot: "#818181",
   styledLink: "#363537",
   aboutDescription: "#000",
+  card: "#39393999",
 };
 
 export const darkTheme = {
@@ -16,4 +17,5 @@ export const darkTheme = {
   dot: "#b0b0b0",
   styledLink: "#fff",
   aboutDescription: "#fff",
+  card: "#4e4e4e40",
 };
