@@ -2,10 +2,20 @@ import "./App.css";
 import { motion } from "framer-motion";
 import AnimatedTitle from "./components/animations/AnimatedTitle";
 import AnimatedSubtitle from "./components/animations/AnimatedSubtitle";
+
+import { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme } from "./components/theme/theme";
+import { GlobalStyles } from "./components/theme/global";
+import Toggle from "./components/theme/Toggle";
+import { useDarkMode } from "./components/theme/useDarkMode";
+
+import Socials from "./components/Socials";
 import About from "./components/About";
 import Skills from "./components/Skills";
 
 function App() {
+  const [theme, toggleTheme] = useDarkMode("light");
+
   const container = {
     visible: {
       transition: {
@@ -66,60 +76,59 @@ function App() {
   ];
 
   return (
-    <div className="App" id="virej">
-      <div className="landing">
-        <div className="landing-text">
-          {/*
-              Virej Dasani
-          */}
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <div className="App" id="virej">
+        <div className="landing">
+          <div className="landing-text">
+            <motion.div
+              className="glendale title"
+              initial="hidden"
+              animate="visible"
+              variants={container}
+            >
+              <div className="container">
+                {titleToAnimate.map((item, index) => {
+                  return <AnimatedTitle {...item} key={index} />;
+                })}
+              </div>
+            </motion.div>
+
+            <motion.div
+              className="akira subtitle"
+              initial="hidden"
+              animate="visible"
+              variants={container}
+            >
+              <div className="container">
+                {subtitleToAnimate.map((item, index) => {
+                  return <AnimatedSubtitle {...item} key={index} />;
+                })}
+              </div>
+            </motion.div>
+          </div>
+          {/* welcome memoji */}
           <motion.div
-            className="glendale title"
-            initial="hidden"
-            animate="visible"
-            variants={container}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 2 }}
+            className="landing-image-container"
           >
-            <div className="container">
-              {titleToAnimate.map((item, index) => {
-                return <AnimatedTitle {...item} key={index} />;
-              })}
-            </div>
-          </motion.div>
-          {/*
-              Web Dev  •  App Dev  •  Game Dev
-          */}
-          <motion.div
-            className="akira subtitle"
-            initial="hidden"
-            animate="visible"
-            variants={container}
-          >
-            <div className="container">
-              {subtitleToAnimate.map((item, index) => {
-                return <AnimatedSubtitle {...item} key={index} />;
-              })}
-            </div>
+            <Toggle onToggle={toggleTheme}>Toggle theme</Toggle>
+            <motion.img
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="landing-image"
+              src={require("./img/transparent-virej-welcome-memoji.png")}
+              alt=""
+            />
           </motion.div>
         </div>
-        {/* welcome memoji */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 2 }}
-          className="landing-image-container"
-        >
-          <motion.img
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="landing-image"
-            src={require("./img/transparent-virej-welcome-memoji.png")}
-            alt=""
-          />
-        </motion.div>
-      </div>
 
-      <About />
-      <Skills />
-    </div>
+        <About />
+        <Skills />
+      </div>
+    </ThemeProvider>
   );
 }
 

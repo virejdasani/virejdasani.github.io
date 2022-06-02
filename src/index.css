@@ -16,7 +16,20 @@
     url("./fonts/akira/akira.otf") format("truetype");
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
 
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #4f4f4f;
+  border-radius: 1px;
+}
 
 * {
   margin: 0;
@@ -25,7 +38,7 @@
 
 html {
   scroll-behavior: smooth;
-
+  overflow-x: hidden;
 }
 
 body {

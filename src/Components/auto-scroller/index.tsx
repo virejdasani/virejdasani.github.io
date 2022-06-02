@@ -86,7 +86,7 @@ const AutoScroller = ({
 };
 
 AutoScroller.defaultProps = {
-  speed: "15s",
+  speed: "10s",
   direction: "normal",
 };
 

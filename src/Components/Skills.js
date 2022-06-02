@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import AnimatedTitle from "./animations/AnimatedTitle";
 import Scroller from "./Scroller";
+import Card from "./Card";
 
 function Skills() {
   const titleToAnimate = [
@@ -10,6 +11,7 @@ function Skills() {
       text: "My Skills",
       hiddenColor: "#FF0088",
       visibleColor: "#fb9fa4",
+      class: "skills-title",
     },
   ];
 
@@ -67,7 +69,65 @@ function Skills() {
         />
       </motion.div>
 
-      <Scroller />
+      <div className="scrolling-wrapper">
+        <Card
+          small="true"
+          name="Advanced"
+          description="Python
+Java
+JavaScript
+HTML
+CSS
+Node JS
+React JS
+Tailwind CSS
+TailBlocks
+Electron JS
+Neutralino JS
+Bootstrap
+Figma
+Android SDK
+Unity Engine
+Git / GitHub
+Linux
+Vi / Vim"
+        />
+        <Card
+          small="true"
+          name="Intermediate"
+          description="C
+C#
+XML
+React Native
+Selenium
+PyAutoGUI
+Tkinter
+SQL
+Firebase
+PhotoShop
+Gimp
+Blender
+Material UI"
+        />
+        <Card
+          small="true"
+          name="Exposure"
+          description="Go Lang
+CoffeeScript
+Swift
+SwiftUI
+XCode
+Django
+Flask
+jQuery
+PyGame
+Lua & Love"
+        />
+      </div>
+
+      <div className="scroller-container">
+        <Scroller />
+      </div>
     </div>
   );
 }

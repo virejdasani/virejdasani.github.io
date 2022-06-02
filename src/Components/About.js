@@ -16,14 +16,16 @@ function About() {
     {
       type: "paragraph",
       text: "I'm a 17 year old student",
-      hiddenColor: "#FF0088",
-      visibleColor: "#fff",
+      // hiddenColor: "#FF0088",
+      // visibleColor: "#fff",
+      class: "about-description",
     },
     {
       type: "paragraph",
       text: "and self-taught Web, App, & Game developer",
-      hiddenColor: "#FF0088",
-      visibleColor: "#fff",
+      // hiddenColor: "#FF0088",
+      // visibleColor: "#fff",
+      class: "about-description",
     },
   ];
 

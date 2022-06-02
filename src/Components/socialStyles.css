@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: #dfe6e9;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  color: #10ac84;
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.icon i {
+  line-height: 90px;
+  font-size: 25px;
+  transition: all 0.3s;
+
+}
+
+
+
+.icon:hover i {
+  transform: scale(1.3);
+  color: #fff;
+}
+
+
+.icon::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #10ac84;
+  left: -110%;
+  top: 90%;
+  transform: rotate(45deg);
+}
+
+
+.icon:hover::before {
+  animation: animation 1s 1 forwards;
+}
+
+
+@keyframes animation {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+
+  50% {
+    left: 15%;
+    top: -30%;
+  }
+
+  100% {
+    left: -10%;
+    top: -10%;
+  }
+}
+
+/*   */

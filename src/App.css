@@ -19,6 +19,16 @@
   padding-top: 30px;
 }
 
+.skills-title {
+  z-index: 100;
+}
+
+.scroller-container {
+  position: absolute;
+  top: 246vh;
+  z-index: -100;
+}
+
 .title {
   /* min, default, max */
   font-size: clamp(1px, 5vw, 60px);
@@ -35,7 +45,6 @@
 }
 
 .landing-image {
-  /* absolute and responsive image */
   object-fit: cover;
   object-position: center;
   position: absolute;
@@ -67,14 +76,11 @@
 }
 
 .spacingDot {
-  /* color: transparent;
-  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #FFF7AD, #ADFFCE);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 300%;
-  animation: gradient 10s ease infinite; */
-  color: rgb(176, 176, 176);
+  color: #b0b0b0;
+}
 
+.background-z {
+  z-index: -1;
 }
 
 @media all and (min-width: 1250px) {
