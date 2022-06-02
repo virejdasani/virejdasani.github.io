@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ec50e16.css",
-    "main.js": "/static/js/main.2af07452.js",
+    "main.js": "/static/js/main.35167d0b.js",
     "static/media/transparent-virej-welcome-memoji.png": "/static/media/transparent-virej-welcome-memoji.62aa185c9598460b77d9.png",
     "static/media/virej-wave-memoji.png": "/static/media/virej-wave-memoji.e4fd0ba46fd2d908c874.png",
     "static/media/devLogo.png": "/static/media/devLogo.949b651cb39336968983.png",
@@ -14,10 +14,10 @@
     "static/media/youtubeLogo.png": "/static/media/youtubeLogo.3aa8571e527632670c7e.png",
     "index.html": "/index.html",
     "main.2ec50e16.css.map": "/static/css/main.2ec50e16.css.map",
-    "main.2af07452.js.map": "/static/js/main.2af07452.js.map"
+    "main.35167d0b.js.map": "/static/js/main.35167d0b.js.map"
   },
   "entrypoints": [
     "static/css/main.2ec50e16.css",
-    "static/js/main.2af07452.js"
+    "static/js/main.35167d0b.js"
   ]
 }
