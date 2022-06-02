@@ -14,17 +14,18 @@ const OuterWrapper = styled.div`
 `;
 
 const Container = styled.div`
-  transform: rotate(-18deg);
+  transform: rotate(-0deg);
+  padding-top: 100px;
 `;
 
 const Logo = styled.img`
-  width: 150px;
+  width: 200px;
   height: ${LOGO_HEIGHT}px;
   object-fit: contain;
   object-position: center;
-  filter: grayscale(100%);
+  filter: grayscale(40%);
 
-  opacity: 0.5;
+  opacity: 0.25;
   transition: all 0.5s;
 
   &:hover {
@@ -50,8 +51,6 @@ const Logos = [
   <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/frameworks/nodejs.svg" />,
   <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/ides/pycharm.svg" />,
   <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/frameworks/android.svg" />,
-  <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/frameworks/boostrap.svg" />,
-  <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/cloud/heroku.svg" />,
   <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/frameworks/react.svg" />,
   <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/others/npm.svg" />,
   <Logo src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/text%20editors/sublime.svg" />,
@@ -71,13 +70,13 @@ const Scroller = () => {
     const tempScrollers = [];
     for (
       let i = 0;
-      i < Math.ceil((height * 0.4) / (LOGO_HEIGHT + LOGO_MARGIN * 2)) + 2;
+      i < Math.ceil((height * 0.5) / (LOGO_HEIGHT + LOGO_MARGIN * 2)) + 2;
       i++
     ) {
       tempScrollers.push(
         <AutoScroller
           margin={`${LOGO_MARGIN}px 30px`}
-          speed="100s"
+          speed="160s"
           direction={i % 2 === 0 ? "normal" : "reverse"}
         >
           {Logos}
