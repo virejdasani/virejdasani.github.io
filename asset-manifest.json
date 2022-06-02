@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.192b1bee.css",
-    "main.js": "/static/js/main.15901d93.js",
+    "main.css": "/static/css/main.7dbd8e2f.css",
+    "main.js": "/static/js/main.5acc8334.js",
     "static/media/devLogo.png": "/static/media/devLogo.fe3adbe5fe2a4361906d.png",
     "static/media/transparent-virej-welcome-memoji.png": "/static/media/transparent-virej-welcome-memoji.62aa185c9598460b77d9.png",
     "static/media/virej-wave-memoji.png": "/static/media/virej-wave-memoji.e4fd0ba46fd2d908c874.png",
@@ -13,11 +13,11 @@
     "static/media/githubLogo.png": "/static/media/githubLogo.f03e45d06a4d0fe1f599.png",
     "static/media/youtubeLogo.png": "/static/media/youtubeLogo.3aa8571e527632670c7e.png",
     "index.html": "/index.html",
-    "main.192b1bee.css.map": "/static/css/main.192b1bee.css.map",
-    "main.15901d93.js.map": "/static/js/main.15901d93.js.map"
+    "main.7dbd8e2f.css.map": "/static/css/main.7dbd8e2f.css.map",
+    "main.5acc8334.js.map": "/static/js/main.5acc8334.js.map"
   },
   "entrypoints": [
-    "static/css/main.192b1bee.css",
-    "static/js/main.15901d93.js"
+    "static/css/main.7dbd8e2f.css",
+    "static/js/main.5acc8334.js"
   ]
 }
