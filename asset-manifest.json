@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.2ec50e16.css",
-    "main.js": "/static/js/main.f0a97639.js",
-    "static/media/devLogo.png": "/static/media/devLogo.fe3adbe5fe2a4361906d.png",
+    "main.js": "/static/js/main.2af07452.js",
     "static/media/transparent-virej-welcome-memoji.png": "/static/media/transparent-virej-welcome-memoji.62aa185c9598460b77d9.png",
     "static/media/virej-wave-memoji.png": "/static/media/virej-wave-memoji.e4fd0ba46fd2d908c874.png",
+    "static/media/devLogo.png": "/static/media/devLogo.949b651cb39336968983.png",
     "static/media/akira.otf": "/static/media/akira.5198553380d9bb727554.otf",
     "static/media/instagramLogo.png": "/static/media/instagramLogo.925dd378e4d5b40b7ba4.png",
     "static/media/Glendale-Bold.otf": "/static/media/Glendale-Bold.0fc5feef7c85b83809a4.otf",
@@ -14,10 +14,10 @@
     "static/media/youtubeLogo.png": "/static/media/youtubeLogo.3aa8571e527632670c7e.png",
     "index.html": "/index.html",
     "main.2ec50e16.css.map": "/static/css/main.2ec50e16.css.map",
-    "main.f0a97639.js.map": "/static/js/main.f0a97639.js.map"
+    "main.2af07452.js.map": "/static/js/main.2af07452.js.map"
   },
   "entrypoints": [
     "static/css/main.2ec50e16.css",
-    "static/js/main.f0a97639.js"
+    "static/js/main.2af07452.js"
   ]
 }
