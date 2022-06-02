@@ -5,14 +5,14 @@ function Navbar({ toggleTheme }) {
   return (
     <div id="navbar">
       {/* HOME */}
-      <a href="#virej">
+      {/* <a href="#virej">
         <img
           src={require("../img/homeLogo.png")}
           alt=""
           height="22"
           width="22"
         />
-      </a>
+      </a> */}
       {/* Instagram */}
       <a href="https://instagram.com/virejdasani">
         <img
