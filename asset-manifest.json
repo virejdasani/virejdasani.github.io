@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b1d0571.chunk.css",
-    "main.js": "/static/js/main.069c8f90.chunk.js",
-    "main.js.map": "/static/js/main.069c8f90.chunk.js.map",
+    "main.css": "/static/css/main.51ba2f63.chunk.css",
+    "main.js": "/static/js/main.8b2a6293.chunk.js",
+    "main.js.map": "/static/js/main.8b2a6293.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8ec41d10.js",
     "runtime-main.js.map": "/static/js/runtime-main.8ec41d10.js.map",
-    "static/js/2.a5791ff8.chunk.js": "/static/js/2.a5791ff8.chunk.js",
-    "static/js/2.a5791ff8.chunk.js.map": "/static/js/2.a5791ff8.chunk.js.map",
+    "static/js/2.1638ae75.chunk.js": "/static/js/2.1638ae75.chunk.js",
+    "static/js/2.1638ae75.chunk.js.map": "/static/js/2.1638ae75.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8b1d0571.chunk.css.map": "/static/css/main.8b1d0571.chunk.css.map",
-    "static/js/2.a5791ff8.chunk.js.LICENSE.txt": "/static/js/2.a5791ff8.chunk.js.LICENSE.txt",
+    "static/css/main.51ba2f63.chunk.css.map": "/static/css/main.51ba2f63.chunk.css.map",
+    "static/js/2.1638ae75.chunk.js.LICENSE.txt": "/static/js/2.1638ae75.chunk.js.LICENSE.txt",
     "static/media/contact.css": "/static/media/gradientGalaxy.f69f21a7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ec41d10.js",
-    "static/js/2.a5791ff8.chunk.js",
-    "static/css/main.8b1d0571.chunk.css",
-    "static/js/main.069c8f90.chunk.js"
+    "static/js/2.1638ae75.chunk.js",
+    "static/css/main.51ba2f63.chunk.css",
+    "static/js/main.8b2a6293.chunk.js"
   ]
 }
