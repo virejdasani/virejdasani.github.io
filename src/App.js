@@ -2,6 +2,7 @@ import Title from "./Components/Title";
 import Navbar from "./Components/Navbar";
 import Separator from "./Components/Separator";
 import Skills from "./Components/Skills";
+import FeaturedWork from "./Components/Projects/FeaturedWork";
 import MobileProjects from "./Components/Projects/MobileProjects";
 import DesktopProjects from "./Components/Projects/DesktopProjects";
 import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
@@ -29,24 +30,21 @@ function App() {
 
       <Separator id="projects" />
 
-      {/* Mobile Projects */}
-      <MobileProjects />
+      <FeaturedWork />
+
+      {/* <MobileProjects />
       <Separator />
 
-      {/* Desktop Projects */}
       <DesktopProjects />
       <Separator />
 
-      {/* Extensions and Themes */}
       <ExtensionsThemes />
       <Separator />
 
-      {/* Noteworthy Projects */}
-      <NoteworthyProjects />
+      <NoteworthyProjects /> */}
 
       <Separator id="honours" />
 
-      {/* Achievements */}
       <Achievements />
 
       <Separator />

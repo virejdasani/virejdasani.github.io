@@ -7,16 +7,21 @@ function Achievements() {
       <HeadingTitle title="Some of my Achievements" />
       <div className="scrolling-wrapper">
         <Card
+          name="Completed Hacktoberfest 2021"
+          img={"hacktoberfest21.png"}
+          width="100%"
+          date="Oct 2021"
+        />
+        <Card
           name="Python Certification from Hackerrank"
           link="https://www.hackerrank.com/certificates/0e05337058dc"
           img={"pythonCertificate.png"}
           width="100%"
-          date="Mar 24, 2021"
+          date="Mar 2021"
         />
         <Card
           name="Completed Hacktoberfest 2020"
-          link=""
-          img={"hacktoberfestSwag.jpeg"}
+          img={"hacktoberfest20.png"}
           width="100%"
           date="Oct 2020"
         />

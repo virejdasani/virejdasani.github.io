@@ -32,10 +32,7 @@ function DesktopProjects() {
           width="256"
           height="125"
           buttonText="Get Geniemoji"
-          description="Geniemoji is an app that makes using emojis on desktop simpler than ever
-          It works on operating systems including Windows, MacOS and Linux!
-          It is an open source, desktop app built using the Electron framework
-          Its purpose is to serve you with the most relevant emojis based on your command! Check out Geniemoji in action on YouTube "
+          description=""
           descriptionLink="https://youtu.be/2k41mwqKN9A"
           descriptionLinkText="here"
         />

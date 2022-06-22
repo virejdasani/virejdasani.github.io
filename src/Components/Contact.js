@@ -10,7 +10,7 @@ function Contact() {
           <a href="mailto: dasanivirej@gmail.com">
             <button className="bn632-hover bn26">Email</button>
           </a>
-          <a href="https://discordapp.com/users/vrage#6779">
+          <a href="https://discordapp.com/users/virej#6779">
             <button className="bn632-hover bn26">Discord</button>
           </a>
           <a href="https://twitter.com/virejdasani">

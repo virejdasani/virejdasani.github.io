@@ -15,45 +15,42 @@ function Skills() {
           description="Python
 Java
 JavaScript
+TypeScript
 HTML
 CSS
 Node JS
 React JS
+Firebase
 Tailwind CSS
-TailBlocks
 Electron JS
 Neutralino JS
 Bootstrap
-Figma
+Material UI
+Chakra UI
 Android SDK
 Unity Engine
-Git / GitHub
-Linux
-Vi / Vim"
+Figma
+Git & GitHub"
         />
         <Card
           small="true"
           name="Intermediate"
           description="C
 C#
-XML
 React Native
 Selenium
 PyAutoGUI
 Tkinter
 SQL
-Firebase
 PhotoShop
 Gimp
-Blender
-Material UI"
+Blender"
         />
         <Card
           small="true"
           name="Exposure"
           description="Go Lang
 CoffeeScript
-Swift
 SwiftUI
 XCode
 Django
