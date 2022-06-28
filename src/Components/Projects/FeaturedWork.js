@@ -9,16 +9,6 @@ function FeaturedWork() {
       <HeadingTitle title="Featured Projects" />
       <div className="scrolling-wrapper">
         <Card
-          tags="Electron • JS • HTML • CSS"
-          name="Responsivize"
-          link="https://virejdasani.github.io/Responsivize/"
-          img={"responsivizeBanner.png"}
-          width="256"
-          height="125"
-          buttonText="Check it out"
-          description="A must-have tool to develop responsive websites"
-        />
-        <Card
           name="Dailymoji"
           tags="React • Firebase • Chakra UI"
           link="https://virejdasani.github.io/Dailymoji/"
@@ -27,6 +17,26 @@ function FeaturedWork() {
           height="125"
           buttonText="Check it out"
           description="Track your daily activities with emoji, add context later."
+        />
+        <Card
+          tags="Python"
+          name="pythOwO"
+          link="https://github.com/virejdasani/pythOwO/"
+          img={"pythowo-banner.png"}
+          width="256"
+          height="125"
+          buttonText="Check it out"
+          description="A programming language written in Python. UwU."
+        />
+        <Card
+          tags="Electron • JS • HTML • CSS"
+          name="Responsivize"
+          link="https://virejdasani.github.io/Responsivize/"
+          img={"responsivizeBanner.png"}
+          width="256"
+          height="125"
+          buttonText="Check it out"
+          description="A must-have tool to develop responsive websites"
         />
         <Card
           name="Cuboidal Drift"

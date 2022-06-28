@@ -3,10 +3,10 @@ import Navbar from "./Components/Navbar";
 import Separator from "./Components/Separator";
 import Skills from "./Components/Skills";
 import FeaturedWork from "./Components/Projects/FeaturedWork";
-import MobileProjects from "./Components/Projects/MobileProjects";
-import DesktopProjects from "./Components/Projects/DesktopProjects";
-import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
-import NoteworthyProjects from "./Components/Projects/NoteworthyProjects";
+// import MobileProjects from "./Components/Projects/MobileProjects";
+// import DesktopProjects from "./Components/Projects/DesktopProjects";
+// import ExtensionsThemes from "./Components/Projects/ExtensionsThemes";
+// import NoteworthyProjects from "./Components/Projects/NoteworthyProjects";
 import Achievements from "./Components/Projects/Achievements";
 import Contact from "./Components/Contact";
 
