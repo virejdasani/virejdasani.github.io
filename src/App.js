@@ -13,9 +13,9 @@ import Contact from "./Components/Contact";
 function App() {
   return (
     <div className="App">
-      <div id="stars"></div>
+      {/* <div id="stars"></div>
       <div id="stars2"></div>
-      <div id="stars3"></div>
+      <div id="stars3"></div> */}
 
       {/* Navbar with img links */}
       <Navbar />

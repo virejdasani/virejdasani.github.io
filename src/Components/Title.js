@@ -6,11 +6,20 @@ function Title() {
       <div id="titleHead">
         <h1>Virej Dasani</h1>
         <h3 id="tagline">
-          I'm a <span className="taglineHighlights">17 year old</span> student,{" "}
-          and self-taught{" "}
-          <span className="taglineHighlights">Web, App, & Game developer</span>
+          I code{" "}
+          <span className="taglineHighlights">apps, games, websites</span> then{" "}
+          <span className="taglineHighlights">make videos about it 👇</span>
         </h3>
-        <div className="buttonTopMargin"></div>
+        <iframe
+          style={{ borderRadius: "15px", marginTop: "30px" }}
+          title="Virej Dasani"
+          src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UURzS48bskynAxoI38BFypfQ"
+          width={window.innerWidth > 560 ? "560" : "280"}
+          height={window.innerWidth > 560 ? "315" : "157.5"}
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+        {/* <div className="buttonTopMargin"></div>
         <div id="titleButtons">
           <a href="#skills">
             <button className="bn632-hover bn25">Skills</button>
@@ -24,7 +33,7 @@ function Title() {
           <a href="#contact">
             <button className="bn632-hover bn25">Contact</button>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
