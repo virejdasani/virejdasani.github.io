@@ -4,7 +4,8 @@
 
 #titleHead {
   /* font-family: "Montserrat"; */
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'Shadows Into Light Two', cursive; */
   text-align: center;
   color: #FFF;
   display: flex;
@@ -15,13 +16,13 @@
   margin-bottom: 0px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 h1 {
   background-color: rgb(255, 255, 255);
   /* background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/master/public/gif/loopedWaves.gif); */
-  background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/v2/public/gif/titleBG.gif);
+  /* background-image: url(https://raw.githubusercontent.com/virejdasani/virejdasani.github.io/v2/public/gif/titleBG.gif); */
   color: transparent;
   background-size: cover;
   background-position: -10px;

@@ -15,7 +15,39 @@ body {
   flex-direction: column;
   /* This is for firefox. Horizontal scrollbars are transparent */
   scrollbar-color: transparent transparent;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  /* background: url(https://im.ezgif.com/tmp/ezgif-1-7b923dec82.gif); */
+  /* background: url(https://github.com/virejdasani/virejdasani.github.io/blob/master/dots-moving-video-bg-dark-optimized.gif?raw=true); */
+  /* background: url(https://github.com/virejdasani/virejdasani.github.io/blob/master/dots-moving-video-bg-dark.gif?raw=true); */
+  /* increase background size */
+  background-size: 90%;
+  transition: 1s opacity;
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  /* let video fill screen */
+  object-fit: cover;
+
+}
+
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+html {
+  min-height: 100%;
+  background: #000;
 }
 
 @keyframes gradient {
@@ -44,22 +76,8 @@ body {
   min-height: 26px;
 } */
 
-html,
-body {
-  scroll-behavior: smooth !important;
-}
 
 
-body {
-  width: auto;
-  height: auto;
-  z-index: -100;
-  /* background: url(https://im.ezgif.com/tmp/ezgif-1-7b923dec82.gif); */
-  background: url(https://github.com/virejdasani/virejdasani.github.io/blob/master/dots-moving-video-bg-dark.gif?raw=true);
-  /* increase background size */
-  background-size: 75%;
-  transition: 1s opacity;
-}
 
 #title {
   position: absolute;
