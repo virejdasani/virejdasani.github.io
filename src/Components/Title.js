@@ -26,14 +26,32 @@ function Title() {
         <h3 id="tagline">
           I code{" "}
           <span className="taglineHighlights">apps, games, websites</span> then{" "}
-          <span className="taglineHighlights">make videos about it 👇</span>
+          <span className="taglineHighlights">make videos about it</span>
         </h3>
+        <div className="pt-10">
+          <h3 id="tagline" className="font-bold underline">
+            watch my <span className="taglineHighlights"> newest video 👇</span>
+          </h3>
+        </div>
         <iframe
-          style={{ borderRadius: "15px", marginTop: "30px" }}
+          style={{ borderRadius: "0px", marginTop: "30px" }}
           title="Virej Dasani"
           src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UURzS48bskynAxoI38BFypfQ"
-          width={window.innerWidth > 560 ? "560" : "280"}
-          height={window.innerWidth > 560 ? "315" : "157.5"}
+          width={
+            // 840, 560 or 280 depending on screen size
+            window.innerWidth > 676
+              ? "672"
+              : window.innerWidth > 564
+              ? "560"
+              : "280"
+          }
+          height={
+            window.innerWidth > 676
+              ? "378"
+              : window.innerWidth > 564
+              ? "315"
+              : "157.5"
+          }
           frameBorder="0"
           allowFullScreen
         ></iframe>

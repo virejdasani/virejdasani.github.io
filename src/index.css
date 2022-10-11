@@ -100,6 +100,11 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.pt-10 {
+  padding-top: 12px;
+  margin-bottom: -10px;
+}
+
 @keyframes animStar {
   from {
     transform: translateY(0px);
