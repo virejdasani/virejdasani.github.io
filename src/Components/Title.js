@@ -30,13 +30,14 @@ function Title() {
         </h3>
         <div className="pt-10">
           <h3 id="tagline" className="font-bold underline">
-            watch my <span className="taglineHighlights"> newest video 👇</span>
+            watch my{" "}
+            <span className="taglineHighlights"> newest videos 👇</span>
           </h3>
         </div>
         <iframe
           style={{ borderRadius: "0px", marginTop: "30px" }}
           title="Virej Dasani"
-          src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UURzS48bskynAxoI38BFypfQ"
+          src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UURzS48bskynAxoI38BFypfQ&index=2"
           width={
             // 840, 560 or 280 depending on screen size
             window.innerWidth > 676
