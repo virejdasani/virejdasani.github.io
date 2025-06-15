@@ -37,7 +37,10 @@ function Title() {
         <iframe
           style={{ borderRadius: "0px", marginTop: "30px" }}
           title="Virej Dasani"
-          src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UURzS48bskynAxoI38BFypfQ"
+          // this is all videos
+          // src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UURzS48bskynAxoI38BFypfQ"
+          // this is the autoplay playlist
+          src="https://www.youtube-nocookie.com/embed?listType=playlist&list=PL2MNP01WPojRtTdke9Gs3Yq5YfW_odeBq"
           width={
             // 840, 560 or 280 depending on screen size
             window.innerWidth > 676
