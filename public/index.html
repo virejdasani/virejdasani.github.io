@@ -47,12 +47,7 @@
   }
   </script>
 
-  <!-- Basic inline styles for headshots section -->
-  <style>
-    #headshots { display:flex; gap:1rem; justify-content:center; padding:2rem 0; align-items:center; }
-    #headshots img { width:150px; height:150px; object-fit:cover; border-radius:50%; box-shadow:0 4px 12px rgba(0,0,0,0.12); }
-    @media (max-width:480px){ #headshots { flex-direction:column; } }
-  </style>
+  <!-- Headshot images are now handled inside the React app -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TD1WZ1BQCP"></script>
@@ -84,11 +79,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-  <!-- Images section (headshots) -->
-  <section id="headshots" aria-label="Headshots">
-    <img src="/virej-headshot.jpg" alt="Virej Dasani">
-    <img src="/virej-headshot-2.jpg" alt="Virej Dasani">
-  </section>
+  <!-- Headshot images inserted by React Contact component -->
 
 </body>
 

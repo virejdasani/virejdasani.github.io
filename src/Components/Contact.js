@@ -23,7 +23,11 @@ function Contact() {
             <button className="bn632-hover bn26">Instagram</button>
           </a>
         </div>
-      </div>
+        </div>
+        <section id="headshots" aria-label="Headshots">
+          <img src="/virej-headshot.jpg" alt="Virej Dasani" />
+          <img src="/virej-headshot-2.jpg" alt="Virej Dasani" />
+        </section>
     </div>
   );
 }
